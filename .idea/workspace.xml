@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai1/ChuyenDoiTien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai1/ChuyenSoSangChu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai1/HienThiLoiChao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai2/HienThi20SoNguyenTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai2/HienThiCacLoaiHinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai3/DemKyTuXuatHien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai3/GopMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai3/ThemPhanTuVaoMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai3/TimGiaTriNhoNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai3/TimPhanTuLonNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai3/TinhTongGiaTriDuongCheo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai3/TinhTongMotSoOMotCot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai3/XoaPhanTuTrongMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/Automated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/Automateds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/TinhTong.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2hUMcJGUhv5lyNnGjbM8c35Vb0t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DuyenMang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GopMang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HienThi20SoNguyenTo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HienThiCacLoaiHinh.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HienThiLoiChao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TinhTong.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TinhTongGiaTriDuongCheo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TinhTongMotSoOMotCot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.XoaPhanTuTrongMang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.chuyendoitien.executor&quot;: &quot;Run&quot;,
+    &quot;Application.chuyenso_sangchu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.Automateds.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Automateds.testAdd.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="bai1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Automateds">
+    <configuration name="GopMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai3.GopMang" />
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TinhTongGiaTriDuongCheo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai3.TinhTongGiaTriDuongCheo" />
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TinhTongMotSoOMotCot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai3.TinhTongMotSoOMotCot" />
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Automateds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.Automateds" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Automateds.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.Automateds" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Automateds" />
+        <item itemvalue="JUnit.Automateds.testAdd" />
+        <item itemvalue="Application.TinhTongGiaTriDuongCheo" />
+        <item itemvalue="Application.TinhTongMotSoOMotCot" />
+        <item itemvalue="Application.GopMang" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="" />
+      <created>1717644281739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717644281739</updated>
+      <workItem from="1717644282804" duration="2214000" />
+      <workItem from="1717655818623" duration="5877000" />
+      <workItem from="1717688122976" duration="783000" />
+      <workItem from="1717725791668" duration="52000" />
+      <workItem from="1717725864932" duration="655000" />
+      <workItem from="1717726996988" duration="3329000" />
+      <workItem from="1717981696327" duration="2492000" />
+      <workItem from="1717988515868" duration="5140000" />
+      <workItem from="1718001095487" duration="607000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
