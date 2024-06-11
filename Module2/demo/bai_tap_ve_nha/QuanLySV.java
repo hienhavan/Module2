@@ -1,6 +1,4 @@
-package bai_tap_ve_nha;
-
-import bai_tap_ve_nha.QuanLyMaSinhVien;
+package demo.bai_tap_ve_nha;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -28,23 +26,38 @@ public class QuanLySV {
 
         System.out.println("lựa chọn (1) để hiện thị sv, lựa chọn (2) để xóa sv ");
         int choice = scanner.nextInt();
-        System.out.println("Nhập mã sinh viên:");
-        int idInput = scanner.nextInt();
-
-        if (choice == 2) {
+        if (choice == 1 || choice == 2) {
+            System.out.println("Nhập mã sinh viên:");
+            int idInput = scanner.nextInt();
             QuanLyMaSinhVien svToRemove = null;
-            for (QuanLyMaSinhVien sv : list) {
-                if (sv.MaSinhVien == idInput) {
-                    svToRemove = sv;
-                    break;
+            if (choice == 2) {
+                for (QuanLyMaSinhVien sv : list) {
+                    if (sv.MaSinhVien == idInput) {
+                        svToRemove = sv;
+                        break;
+                    }
+                }
+                if (svToRemove != null) {
+                    list.remove(svToRemove);
+                    System.out.println(list);
+                } else {
+                    System.out.println("Không tìm thấy sinh viên với mã sinh viên đã nhập.");
                 }
             }
-            if (svToRemove != null) {
-                list.remove(svToRemove);
-                System.out.println(list);
-            } else {
-                System.out.println("Không tìm thấy sinh viên với mã sinh viên đã nhập.");
+             if (choice == 1){
+                for (QuanLyMaSinhVien sv : list) {
+                    if (sv.MaSinhVien == idInput) {
+                        svToRemove = sv;
+                        System.out.println(svToRemove);
+                        break;
+                    }else {
+                        System.out.println("Không tìm thấy sinh viên với mã sinh viên đã nhập.");
+                    }
+                }
             }
+        }
+        else {
+            System.out.println("bạn đã không chọn gì! bye");
         }
     }
 }

@@ -1,6 +1,4 @@
-package bai_tap_ve_nha;
-
-import java.util.ArrayList;
+package demo.bai_tap_ve_nha;
 
 public class QuanLyMaSinhVien {
     public   int MaSinhVien;
