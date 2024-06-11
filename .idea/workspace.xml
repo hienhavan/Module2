@@ -5,25 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai3/BtThemPhanTuVaoMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai4/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai4/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai4/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai_tap_ve_nha/QuanLyMaSinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai_tap_ve_nha/QuanLySV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/C0424g1-jv101.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai1/ChuyenDoiTien.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai1/ChuyenDoiTien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai1/ChuyenSoSangChu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai1/ChuyenSoSangChu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai1/HienThiLoiChao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai1/HienThiLoiChao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai2/HienThi20SoNguyenTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai2/HienThi20SoNguyenTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai2/HienThiCacLoaiHinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai2/HienThiCacLoaiHinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai3/DemKyTuXuatHien.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai3/DemKyTuXuatHien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai3/GopMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai3/GopMang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai3/ThemPhanTuVaoMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai3/ThemPhanTuVaoMang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai3/TimGiaTriNhoNhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai3/TimGiaTriNhoNhat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai3/TimPhanTuLonNhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai3/TimPhanTuLonNhat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai3/TinhTongGiaTriDuongCheo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai3/TinhTongGiaTriDuongCheo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai3/TinhTongMotSoOMotCot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai3/TinhTongMotSoOMotCot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai3/XoaPhanTuTrongMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai3/XoaPhanTuTrongMang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/Automated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/Automated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/Automateds.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/Automateds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/TinhTong.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/TinhTong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/bai1/ChuyenDoiTien.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai1/ChuyenDoiTien.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -54,11 +46,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BtThemPhanTuVaoMang.executor": "Debug",
     "Application.DuyenMang.executor": "Run",
+    "Application.Fan.executor": "Run",
     "Application.GopMang.executor": "Run",
     "Application.HienThi20SoNguyenTo.executor": "Run",
     "Application.HienThiCacLoaiHinh.executor": "Run",
     "Application.HienThiLoiChao.executor": "Run",
+    "Application.QuadraticEquation.executor": "Run",
+    "Application.QuanLySV.executor": "Run",
+    "Application.StopWatch.executor": "Run",
     "Application.ThemPhanTuVaoMang.executor": "Run",
     "Application.TinhTong.executor": "Run",
     "Application.TinhTongGiaTriDuongCheo.executor": "Run",
@@ -70,6 +67,7 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.Automateds.executor": "Run",
     "JUnit.Automateds.testAdd.executor": "Run",
+    "JUnit.demo in C0424g1-jv101.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -86,7 +84,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -94,16 +92,22 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="demo" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java codgym\demo1\Module2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="bai1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Automateds.testAdd">
-    <configuration name="ThemPhanTuVaoMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai3.ThemPhanTuVaoMang" />
+  <component name="RunManager" selected="Application.QuanLySV">
+    <configuration name="Fan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai4.Fan" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TinhTongGiaTriDuongCheo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai3.TinhTongGiaTriDuongCheo" />
+    <configuration name="QuadraticEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai4.QuadraticEquation" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TinhTongMotSoOMotCot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai3.TinhTongMotSoOMotCot" />
+    <configuration name="QuanLySV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap_ve_nha.QuanLySV" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +145,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Automateds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StopWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai4.StopWatch" />
+      <module name="C0424g1-jv101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo in C0424g1-jv101" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
@@ -150,48 +167,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.Automateds" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Automateds.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="C0424g1-jv101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.Automateds" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="C0424g1-jv101" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="C0424g1-jv101" />
-      <option name="filePath" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Automateds.testAdd" />
-        <item itemvalue="Application.ThemPhanTuVaoMang" />
-        <item itemvalue="JUnit.Automateds" />
-        <item itemvalue="Application.TinhTongGiaTriDuongCheo" />
-        <item itemvalue="Application.TinhTongMotSoOMotCot" />
+        <item itemvalue="Application.QuanLySV" />
+        <item itemvalue="JUnit.demo in C0424g1-jv101" />
+        <item itemvalue="Application.Fan" />
+        <item itemvalue="Application.StopWatch" />
+        <item itemvalue="Application.QuadraticEquation" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +206,11 @@
       <workItem from="1717726996988" duration="3329000" />
       <workItem from="1717981696327" duration="2492000" />
       <workItem from="1717988515868" duration="5140000" />
-      <workItem from="1718001095487" duration="4750000" />
+      <workItem from="1718001095487" duration="7831000" />
+      <workItem from="1718025827656" duration="5020000" />
+      <workItem from="1718068116291" duration="3799000" />
+      <workItem from="1718074004917" duration="5417000" />
+      <workItem from="1718088097873" duration="4942000" />
     </task>
     <servers />
   </component>
