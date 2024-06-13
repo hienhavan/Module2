@@ -1,7 +1,7 @@
 package bai5.XayDungLopChiGhi;
 
 public class Student {
-    private String name = "john";
+    protected String name = "john";
     private String lop = "CO2";
     public  Student(){}
 
@@ -11,5 +11,13 @@ public class Student {
 
     public void setLop(String lop) {
         this.lop = lop;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", lop='" + lop + '\'' +
+                '}';
     }
 }

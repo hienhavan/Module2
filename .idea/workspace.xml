@@ -5,20 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module2/bai5/AccessModiflier/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai5/AccessModiflier/TestCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai5/XayDungLopChiGhi/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai5/XayDungLopChiGhi/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/CAUTRUCDULIEU/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/CAUTRUCDULIEU/Queues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/CAUTRUCDULIEU/Stacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/CAUTRUCDULIEU/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai6/crirclecylinder/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai6/crirclecylinder/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai6/crirclecylinder/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai6/point2dpoint3d/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai6/point2dpoint3d/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai6/point2dpoint3d/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai6/poveablepoint/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai6/poveablepoint/MovablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai6/poveablepoint/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/DemoOOP/GeometricOject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/DemoOOP/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/demo/generics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/demo/genericsChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/interfacedemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/bai5/XayDungLopChiGhi/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai5/XayDungLopChiGhi/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/bai5/XayDungLopChiGhi/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai5/XayDungLopChiGhi/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module2/bai_tap_ve_nha/QuanLyMaSinhVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/bai_tap_ve_nha/QuanLyMaSinhVien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module2/bai_tap_ve_nha/QuanLySV.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/bai_tap_ve_nha/QuanLySV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/Automated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/TEST/Automated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/Automateds.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/TEST/Automateds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/TinhTong.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,25 +58,35 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
     &quot;Application.BtThemPhanTuVaoMang.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Counter.executor&quot;: &quot;Debug&quot;,
     &quot;Application.DuyenMang.executor&quot;: &quot;Run&quot;,
     &quot;Application.Fan.executor&quot;: &quot;Run&quot;,
     &quot;Application.GopMang.executor&quot;: &quot;Run&quot;,
     &quot;Application.HienThi20SoNguyenTo.executor&quot;: &quot;Run&quot;,
     &quot;Application.HienThiCacLoaiHinh.executor&quot;: &quot;Run&quot;,
     &quot;Application.HienThiLoiChao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyClass.executor&quot;: &quot;Run&quot;,
     &quot;Application.QuadraticEquation.executor&quot;: &quot;Run&quot;,
     &quot;Application.QuanLySV.executor&quot;: &quot;Run&quot;,
     &quot;Application.Queues.executor&quot;: &quot;Run&quot;,
     &quot;Application.Stacks.executor&quot;: &quot;Run&quot;,
     &quot;Application.StopWatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
     &quot;Application.ThemPhanTuVaoMang.executor&quot;: &quot;Run&quot;,
     &quot;Application.TinhTong.executor&quot;: &quot;Run&quot;,
     &quot;Application.TinhTongGiaTriDuongCheo.executor&quot;: &quot;Run&quot;,
     &quot;Application.TinhTongMotSoOMotCot.executor&quot;: &quot;Run&quot;,
     &quot;Application.XoaPhanTuTrongMang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai6.MoveablePoint.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai6.Point2DPoint3D.App.executor&quot;: &quot;Run&quot;,
     &quot;Application.chuyendoitien.executor&quot;: &quot;Run&quot;,
     &quot;Application.chuyenso_sangchu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo.MyClass.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.generics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.interfacedemo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.interfacedemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.main.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;JUnit.Automateds.executor&quot;: &quot;Run&quot;,
@@ -102,6 +117,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="bai6.MoveablePoint" />
       <recent name="demo" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -114,13 +130,13 @@
       <recent name="bai1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuanLySV">
-    <configuration name="Fan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai4.Fan" />
+  <component name="RunManager" selected="Application.generics">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai6.crirclecylinder.App" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai3.*" />
+          <option name="PATTERN" value="bai6.crirclecylinder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuanLySV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.bai_tap_ve_nha.QuanLySV" />
+    <configuration name="bai6.point2dpoint3d.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai6.point2dpoint3d.App" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai3.*" />
+          <option name="PATTERN" value="bai6.point2dpoint3d.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.CAUTRUCDULIEU.Queues" />
+    <configuration name="bai6.poveablepoint.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai6.poveablepoint.App" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.CAUTRUCDULIEU.*" />
+          <option name="PATTERN" value="bai6.poveablepoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.CAUTRUCDULIEU.Stacks" />
+    <configuration name="demo.MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.MyClass" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.CAUTRUCDULIEU.*" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,27 +183,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo in C0424g1-jv101" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="generics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.demo.generics" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.TEST.*" />
+          <option name="PATTERN" value="demo.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuanLySV" />
-        <item itemvalue="Application.Queues" />
-        <item itemvalue="Application.Stacks" />
-        <item itemvalue="JUnit.demo in C0424g1-jv101" />
-        <item itemvalue="Application.Fan" />
+        <item itemvalue="Application.generics" />
+        <item itemvalue="Application.bai6.poveablepoint.App" />
+        <item itemvalue="Application.bai6.point2dpoint3d.App" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.demo.MyClass" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +236,13 @@
       <workItem from="1718074004917" duration="5417000" />
       <workItem from="1718088097873" duration="6068000" />
       <workItem from="1718113677782" duration="7349000" />
-      <workItem from="1718122996434" duration="308000" />
+      <workItem from="1718122996434" duration="792000" />
+      <workItem from="1718180051683" duration="5192000" />
+      <workItem from="1718200094647" duration="2612000" />
+      <workItem from="1718243695803" duration="1729000" />
+      <workItem from="1718248356075" duration="5830000" />
+      <workItem from="1718264996709" duration="2338000" />
+      <workItem from="1718271419767" duration="1652000" />
     </task>
     <servers />
   </component>
