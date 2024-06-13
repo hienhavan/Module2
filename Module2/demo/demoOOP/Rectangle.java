@@ -1,4 +1,4 @@
-package demo.DemoOOP;
+package demo.demoOOP;
 
 public class Rectangle extends GeometricOject{
     private double width;

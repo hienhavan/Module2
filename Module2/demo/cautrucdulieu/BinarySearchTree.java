@@ -1,4 +1,4 @@
-package demo.CAUTRUCDULIEU;
+package demo.cautrucdulieu;
 
 public class BinarySearchTree {
     TreeNode root;

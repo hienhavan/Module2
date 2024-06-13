@@ -1,11 +1,11 @@
 package demo.demo;
 
-public class generics<T,U,V> {
+public class Generics<T,U,V> {
     private T na;
     private U nb;
     private V nc;
 
-    public generics(T na, U nb, V nc) {
+    public Generics(T na, U nb, V nc) {
         this.na = na;
         this.nb = nb;
         this.nc = nc;
@@ -45,7 +45,7 @@ public class generics<T,U,V> {
     }
 
     public static void main(String[] args) {
-        generics<Integer, String, Double> generics = new generics<>(1, "2", 3.0);
+        Generics<Integer, String, Double> generics = new Generics<>(1, "2", 3.0);
         System.out.println(generics.toString());
 
     }

@@ -1,4 +1,4 @@
-package demo.CAUTRUCDULIEU;
+package demo.cautrucdulieu;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package demo.DemoOOP;
+package demo.demoOOP;
 
 import java.util.Date;
 
