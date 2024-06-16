@@ -1,6 +1,6 @@
-package demo.demo;
+package demo.generics;
 
-public class Generics<T,U,V> {
+public class Generics<T, U, V> {
     private T na;
     private U nb;
     private V nc;
@@ -47,6 +47,5 @@ public class Generics<T,U,V> {
     public static void main(String[] args) {
         Generics<Integer, String, Double> generics = new Generics<>(1, "2", 3.0);
         System.out.println(generics.toString());
-
     }
 }

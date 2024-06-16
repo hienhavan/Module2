@@ -1,4 +1,4 @@
-package demo.bai_tap_ve_nha;
+package demo.baitapvenha1;
 
 import java.util.ArrayList;
 import java.util.Scanner;

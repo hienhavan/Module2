@@ -64,21 +64,22 @@ public class Fan {
     public void setSpeed(int speed) {
         this.speed = speed;
     }
+
     public Fan() {
     }
 
     @Override
     public String toString() {
-        if (on == true){
+        if (on == true) {
             return "Fan{" +
-                    "fan is on"+
+                    "fan is on" +
                     ", radius=" + radius +
                     ", color='" + color + '\'' +
                     ", speed=" + speed +
                     '}';
         }
         return "Fan{" +
-                "fan is off"+
+                "fan is off" +
                 ", radius=" + radius +
                 ", color='" + color + '\'' +
                 ", speed=" + speed +

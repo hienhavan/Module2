@@ -1,4 +1,4 @@
-package demo.bai_tap_ve_nha;
+package demo.baitapvenha1;
 
 public class QuanLyMaSinhVien {
     public   int MaSinhVien;

@@ -4,10 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="refactor code">
+    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Module2/bai7/baitap1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai7/baitap1/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai7/baitap1/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai7/baitap1/Resizeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai7/baitap1/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai7/baitap2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai7/baitap2/Colrable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai7/baitap2/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/array/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha2/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha2/EmployeeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha2/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha2/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha2/Offce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha2/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/enums/Enums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/enums/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/generics/GenericsChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/generics/OrderedPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/interface1/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/interface1/NhanVienVanPhong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demo/generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demo/Generics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demo/genericsChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demo/GenericsChild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/bai4/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai4/Fan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/bai_tap_ve_nha/QuanLyMaSinhVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha1/QuanLyMaSinhVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/bai_tap_ve_nha/QuanLySV.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha1/QuanLySV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demo/Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/generics/Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demo/GenericsChild.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/interfacedemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/Interface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +45,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -43,14 +71,18 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array.executor&quot;: &quot;Run&quot;,
     &quot;Application.BtThemPhanTuVaoMang.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Counter.executor&quot;: &quot;Debug&quot;,
     &quot;Application.DuyenMang.executor&quot;: &quot;Run&quot;,
     &quot;Application.Fan.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericsChild.executor&quot;: &quot;Run&quot;,
     &quot;Application.GopMang.executor&quot;: &quot;Run&quot;,
     &quot;Application.HienThi20SoNguyenTo.executor&quot;: &quot;Run&quot;,
     &quot;Application.HienThiCacLoaiHinh.executor&quot;: &quot;Run&quot;,
     &quot;Application.HienThiLoiChao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MyClass.executor&quot;: &quot;Run&quot;,
     &quot;Application.QuadraticEquation.executor&quot;: &quot;Run&quot;,
     &quot;Application.QuanLySV.executor&quot;: &quot;Run&quot;,
@@ -65,9 +97,13 @@
     &quot;Application.XoaPhanTuTrongMang.executor&quot;: &quot;Run&quot;,
     &quot;Application.bai6.MoveablePoint.App.executor&quot;: &quot;Run&quot;,
     &quot;Application.bai6.Point2DPoint3D.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai7.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai7.baitap1.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai7.baitap2.App.executor&quot;: &quot;Run&quot;,
     &quot;Application.chuyendoitien.executor&quot;: &quot;Run&quot;,
     &quot;Application.chuyenso_sangchu.executor&quot;: &quot;Run&quot;,
     &quot;Application.demo.MyClass.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.demo.baitapvenha2.App.executor&quot;: &quot;Run&quot;,
     &quot;Application.generics.executor&quot;: &quot;Run&quot;,
     &quot;Application.interfacedemo (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.interfacedemo.executor&quot;: &quot;Run&quot;,
@@ -101,6 +137,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="demo.demo" />
       <recent name="bai6.MoveablePoint" />
       <recent name="demo" />
     </key>
@@ -114,13 +151,13 @@
       <recent name="bai1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai6.crirclecylinder.App" />
+  <component name="RunManager" selected="Application.demo.baitapvenha2.App">
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.array.Array" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai6.crirclecylinder.*" />
+          <option name="PATTERN" value="demo.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,47 +165,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.demo.Generics" />
-      <module name="C0424g1-jv101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bai6.point2dpoint3d.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai6.point2dpoint3d.App" />
-      <module name="C0424g1-jv101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai6.point2dpoint3d.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bai6.poveablepoint.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai6.poveablepoint.App" />
-      <module name="C0424g1-jv101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai6.poveablepoint.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo.MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.MyClass" />
+    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Interface" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
@@ -180,13 +178,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.enums.Main" />
+      <module name="C0424g1-jv101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bai7.baitap1.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai7.baitap1.App" />
+      <module name="C0424g1-jv101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai7.baitap1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo.baitapvenha2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.baitapvenha2.App" />
+      <module name="C0424g1-jv101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.baitapvenha2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.Generics" />
-        <item itemvalue="Application.bai6.poveablepoint.App" />
-        <item itemvalue="Application.bai6.point2dpoint3d.App" />
-        <item itemvalue="Application.demo.MyClass" />
+        <item itemvalue="Application.demo.baitapvenha2.App" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Interface" />
+        <item itemvalue="Application.Array" />
+        <item itemvalue="Application.bai7.baitap1.App" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +264,15 @@
       <workItem from="1718248356075" duration="5830000" />
       <workItem from="1718264996709" duration="2338000" />
       <workItem from="1718271419767" duration="3012000" />
-      <workItem from="1718281042043" duration="1384000" />
+      <workItem from="1718281042043" duration="9380000" />
+      <workItem from="1718330893469" duration="1977000" />
+      <workItem from="1718333697282" duration="4352000" />
+      <workItem from="1718346989783" duration="13310000" />
+      <workItem from="1718377814252" duration="1908000" />
+      <workItem from="1718472112664" duration="1186000" />
+      <workItem from="1718505240779" duration="12987000" />
+      <workItem from="1718524095806" duration="5537000" />
+      <workItem from="1718543651795" duration="7872000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
@@ -237,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718273127128</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refator 1">
+      <option name="closed" value="true" />
+      <created>1718282813676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718282813676</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +298,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
+    <MESSAGE value="refator 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="refator 1" />
   </component>
 </project>
