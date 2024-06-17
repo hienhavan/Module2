@@ -21,7 +21,7 @@ public class EmployeeManager implements Function {
             System.out.println("Them moi thanh cong:");
             for (Staff staff : Employee) {
                 if (staff != null) {
-                    System.out.println("Danh sách hiện tại:" + staff);
+                    System.out.println( staff);
                 }
             }
         } else {
