@@ -99,10 +99,13 @@ public class EmployeeManager implements Function {
         for (Staff employee : Employee) {
             if (employee instanceof Offce) {
                 offceCount++;
+                System.out.println(" nhân viên văn phòng:" + employee);
             } else if (employee instanceof Factory) {
                 factoryCount++;
+                System.out.println("nhân viên công xưởng:" + employee);
             } else if (employee instanceof Delivery) {
                 deliveryCount++;
+                System.out.println("nhân viên giao hàng: " + employee);
             }
         }
 

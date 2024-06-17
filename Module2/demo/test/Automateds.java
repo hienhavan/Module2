@@ -1,9 +1,9 @@
 package demo.test;
 
+import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 
 public class Automateds {
     @Test
@@ -16,5 +16,7 @@ public class Automateds {
         int result = instance.add(x, y);
         assertEquals(expResult, result);
         assertNotNull(result);
+        assertSame(y,x);
+        Assert.assertNotSame(z,x);
     }
 }
