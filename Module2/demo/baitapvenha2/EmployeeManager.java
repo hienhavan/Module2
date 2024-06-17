@@ -3,30 +3,30 @@ package demo.baitapvenha2;
 import java.util.Arrays;
 
 public class EmployeeManager implements Function {
-    private Staff[] Employee;
+    private Staff[] employee;
     private int limit;
-    private int size;
+    private int sizeArray;
 
     public EmployeeManager(int limit) {
         this.limit = limit;
-        Employee = new Staff[limit];
-        this.size = 0;
+        employee = new Staff[limit];
+        this.sizeArray = 0;
     }
 
     @Override
     public void create(Staff nv) {
-        if (size < limit) {
-            Employee[size] = nv;
-            size++;
+        if (sizeArray < limit) {
+            employee[sizeArray] = nv;
+            sizeArray++;
             System.out.println("Them moi thanh cong:");
-            for (Staff staff : Employee) {
+            for (Staff staff : employee) {
                 if (staff != null) {
                     System.out.println(staff);
                 }
             }
         } else {
             System.out.println("Danh sach da day:");
-            for (Staff staff : Employee) {
+            for (Staff staff : employee) {
                 if (staff != null) {
                     System.out.println("Danh sách hiện tại:" + staff);
                 }
@@ -37,10 +37,10 @@ public class EmployeeManager implements Function {
     @Override
     public void read(String name) {
         boolean check = false;
-        for (int i = 0; i < size; i++) {
-            if (Employee[i].getName().equals(name)) {
+        for (int i = 0; i < sizeArray; i++) {
+            if (employee[i].getName().equals(name)) {
                 System.out.println("Thông tin nhân viên có tên: " + name);
-                System.out.println(Employee[i].toString());
+                System.out.println(employee[i].toString());
                 check = true;
             }
         }
@@ -52,12 +52,12 @@ public class EmployeeManager implements Function {
     @Override
     public void update(Staff nv) {
         boolean check = false;
-        for (int i = 0; i < size; i++) {
-            if (Employee[i].getId() == nv.getId()) {
-                Employee[i] = nv;
+        for (int i = 0; i < sizeArray; i++) {
+            if (employee[i].getId() == nv.getId()) {
+                employee[i] = nv;
                 System.out.println("Sua thanh cong:");
                 check = true;
-                for (Staff staff : Employee) {
+                for (Staff staff : employee) {
                     if (staff != null) {
                         System.out.println("Danh sách hiện tại:" + staff);
                     }
@@ -73,13 +73,13 @@ public class EmployeeManager implements Function {
     @Override
     public void delete(int id) {
         boolean check = false;
-        for (int i = 0; i < size; i++) {
-            if (Employee[i].getId() == id) {
-                Employee[i] = null;
-                size--;
+        for (int i = 0; i < sizeArray; i++) {
+            if (employee[i].getId() == id) {
+                employee[i] = null;
+                sizeArray--;
                 check = true;
                 System.out.println("Xóa thành công nhân viên có ID: " + id);
-                for (Staff staff : Employee) {
+                for (Staff staff : employee) {
                     if (staff != null) {
                         System.out.println("Danh sách hiện tại:" + staff);
                     }
@@ -96,7 +96,7 @@ public class EmployeeManager implements Function {
         int offceCount = 0;
         int factoryCount = 0;
         int deliveryCount = 0;
-        for (Staff employee : Employee) {
+        for (Staff employee : employee) {
             if (employee instanceof Offce) {
                 offceCount++;
                 System.out.println(" nhân viên văn phòng:" + employee);
@@ -117,7 +117,7 @@ public class EmployeeManager implements Function {
     @Override
     public String toString() {
         return "EmployeeManager{" +
-                "Employees=" + Arrays.toString(Employee) +
+                "Employees=" + Arrays.toString(employee) +
                 '}';
     }
 }
