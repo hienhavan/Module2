@@ -21,7 +21,7 @@ public class EmployeeManager implements Function {
             System.out.println("Them moi thanh cong:");
             for (Staff staff : Employee) {
                 if (staff != null) {
-                    System.out.println( staff);
+                    System.out.println(staff);
                 }
             }
         } else {
@@ -36,27 +36,27 @@ public class EmployeeManager implements Function {
 
     @Override
     public void read(String name) {
-        boolean found = false;
+        boolean check = false;
         for (int i = 0; i < size; i++) {
             if (Employee[i].getName().equals(name)) {
                 System.out.println("Thông tin nhân viên có tên: " + name);
                 System.out.println(Employee[i].toString());
-                found = true;
+                check = true;
             }
         }
-        if (!found) {
+        if (!check) {
             System.out.println("Không tìm thấy nhân viên có tên: " + name);
         }
     }
 
     @Override
     public void update(Staff nv) {
-        boolean found = false;
+        boolean check = false;
         for (int i = 0; i < size; i++) {
             if (Employee[i].getId() == nv.getId()) {
                 Employee[i] = nv;
                 System.out.println("Sua thanh cong:");
-                found = true;
+                check = true;
                 for (Staff staff : Employee) {
                     if (staff != null) {
                         System.out.println("Danh sách hiện tại:" + staff);
@@ -65,19 +65,19 @@ public class EmployeeManager implements Function {
                 break;
             }
         }
-        if (!found) {
+        if (!check) {
             System.out.println("Không tìm thấy nhân viên có ID: " + nv.getId());
         }
     }
 
     @Override
     public void delete(int id) {
-        boolean found = false;
+        boolean check = false;
         for (int i = 0; i < size; i++) {
             if (Employee[i].getId() == id) {
                 Employee[i] = null;
                 size--;
-                found = true;
+                check = true;
                 System.out.println("Xóa thành công nhân viên có ID: " + id);
                 for (Staff staff : Employee) {
                     if (staff != null) {
@@ -87,7 +87,7 @@ public class EmployeeManager implements Function {
                 break;
             }
         }
-        if (!found) {
+        if (!check) {
             System.out.println("Không tìm thấy nhân viên có ID: " + id);
         }
     }
