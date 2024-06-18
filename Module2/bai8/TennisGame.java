@@ -28,7 +28,8 @@ public class TennisGame implements TennisGameConstants {
 
     private static String getAdvantageOrWin(int score1, int score2) {
         int minusResult = score1 - score2;
-        if (minusResult == 1) {
+        int number1 = 1;
+        if (minusResult == number1) {
             return SCORE_ADVANTAGE_PLAYER1;
         } else if (minusResult == -1) {
             return SCORE_ADVANTAGE_PLAYER2;

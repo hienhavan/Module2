@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="luyentap2">
-      <change afterPath="$PROJECT_DIR$/Module2/bai8/TennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai8/TennisGameConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/test/Automatedss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/test/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/test/TennisGameTest.java" afterDir="false" />
+    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="bai8">
+      <change afterPath="$PROJECT_DIR$/Module2/bai9/fizzbuzz/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai9/fizzbuzz/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai9/tinhngaytieptheo/Month.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai9/tinhngaytieptheo/NextDayCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai9/tinhngaytieptheo/NextDayCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai9/triangle/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai9/triangle/TriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/demo/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/test/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/test/Demo2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0424g1-jv101.iml" beforeDir="false" afterPath="$PROJECT_DIR$/C0424g1-jv101.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/test/Automated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/test/Automated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/bai8/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai8/TennisGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +27,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="Automatedss" />
-    </enabled-run-configurations>
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -90,6 +89,7 @@
     "Application.chuyenso_sangchu.executor": "Run",
     "Application.demo.MyClass.executor": "Debug",
     "Application.demo.baitapvenha2.App.executor": "Run",
+    "Application.demo.executor": "Run",
     "Application.generics.executor": "Run",
     "Application.interfacedemo (1).executor": "Run",
     "Application.interfacedemo.executor": "Run",
@@ -99,6 +99,13 @@
     "JUnit.Automateds.testAdd.executor": "Run",
     "JUnit.Automatedss.executor": "Run",
     "JUnit.Automatedss.test.executor": "Run",
+    "JUnit.FizzBuzzTest.DivideBy3and5.executor": "Run",
+    "JUnit.FizzBuzzTest.executor": "Run",
+    "JUnit.NextDayCalculatorTest.executor": "Run",
+    "JUnit.NextDayCalculatorTest.testNextDay1.executor": "Run",
+    "JUnit.NextDayCalculatorTest.testNextDay2.executor": "Run",
+    "JUnit.NextDayCalculatorTest.testNextDay3.executor": "Run",
+    "JUnit.NextDayCalculatorTest.testNextDay4.executor": "Run",
     "JUnit.demo in C0424g1-jv101.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -114,6 +121,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/java codgym/demo1",
     "node.js.detected.package.eslint": "true",
@@ -142,102 +150,96 @@
       <recent name="D:\java codgym\demo1\Module2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="bai9.triangle" />
+      <recent name="bai9.fizzbuzz" />
+      <recent name="bai9" />
+      <recent name="demo.test" />
       <recent name="bai1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Demo1.testLogin">
-    <configuration name="Automatedss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NextDayCalculatorTest">
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.demo.demo" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.test.*" />
+          <option name="PATTERN" value="demo.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo.test" />
-      <option name="MAIN_CLASS_NAME" value="demo.test.Automatedss" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C0424g1-jv101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai9.fizzbuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bai9.fizzbuzz" />
+      <option name="MAIN_CLASS_NAME" value="bai9.fizzbuzz.FizzBuzzTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.DivideBy3and5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.test.*" />
+          <option name="PATTERN" value="bai9.fizzbuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo.test" />
-      <option name="MAIN_CLASS_NAME" value="demo.test.Demo1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="bai9.fizzbuzz" />
+      <option name="MAIN_CLASS_NAME" value="bai9.fizzbuzz.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="DivideBy3and5" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NextDayCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.test.*" />
+          <option name="PATTERN" value="bai9.tinhngaytieptheo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo.test" />
-      <option name="MAIN_CLASS_NAME" value="demo.test.Demo1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="bai9.tinhngaytieptheo" />
+      <option name="MAIN_CLASS_NAME" value="bai9.tinhngaytieptheo.NextDayCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NextDayCalculatorTest.testNextDay3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.test.*" />
+          <option name="PATTERN" value="bai9.tinhngaytieptheo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo.test" />
-      <option name="MAIN_CLASS_NAME" value="demo.test.Demo1" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo1.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="C0424g1-jv101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.test" />
-      <option name="MAIN_CLASS_NAME" value="demo.test.Demo1" />
-      <option name="METHOD_NAME" value="testMethod" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="bai9.tinhngaytieptheo" />
+      <option name="MAIN_CLASS_NAME" value="bai9.tinhngaytieptheo.NextDayCalculatorTest" />
+      <option name="METHOD_NAME" value="testNextDay3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Demo1.testLogin" />
-        <item itemvalue="TestNG.Demo1.testMethod" />
-        <item itemvalue="TestNG.Demo1 (1)" />
-        <item itemvalue="TestNG.Demo1" />
-        <item itemvalue="JUnit.Automatedss" />
+        <item itemvalue="JUnit.NextDayCalculatorTest" />
+        <item itemvalue="Application.demo" />
+        <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.DivideBy3and5" />
+        <item itemvalue="JUnit.NextDayCalculatorTest.testNextDay3" />
       </list>
     </recent_temporary>
   </component>
@@ -294,6 +296,9 @@
       <workItem from="1718617028440" duration="10000" />
       <workItem from="1718617500760" duration="2589000" />
       <workItem from="1718630683995" duration="3964000" />
+      <workItem from="1718672197429" duration="3353000" />
+      <workItem from="1718679593807" duration="6478000" />
+      <workItem from="1718692489180" duration="10681000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
@@ -351,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718588473200</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bai8">
+      <option name="closed" value="true" />
+      <created>1718672395693</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718672395693</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,6 +374,7 @@
     <MESSAGE value="refactor code" />
     <MESSAGE value="refator 1" />
     <MESSAGE value="luyentap2" />
-    <option name="LAST_COMMIT_MESSAGE" value="luyentap2" />
+    <MESSAGE value="bai8" />
+    <option name="LAST_COMMIT_MESSAGE" value="bai8" />
   </component>
 </project>
