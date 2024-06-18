@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="luyentap2">
-      <change beforePath="$PROJECT_DIR$/Module2/demo/baitapvenha2/EmployeeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha2/EmployeeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai8/TennisGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai8/TennisGameConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/test/Automatedss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/test/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/test/TennisGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0424g1-jv101.iml" beforeDir="false" afterPath="$PROJECT_DIR$/C0424g1-jv101.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/test/Automated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/test/Automated.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,14 +25,20 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
-        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="Automatedss" />
+    </enabled-run-configurations>
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -40,75 +54,83 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BtThemPhanTuVaoMang.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Counter.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DuyenMang.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fan.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericsChild.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GopMang.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThi20SoNguyenTo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThiCacLoaiHinh.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThiLoiChao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuadraticEquation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuanLySV.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Queues.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Stacks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StopWatch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThemPhanTuVaoMang.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TinhTong.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TinhTongGiaTriDuongCheo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TinhTongMotSoOMotCot.executor&quot;: &quot;Run&quot;,
-    &quot;Application.XoaPhanTuTrongMang.executor&quot;: &quot;Run&quot;,
-    &quot;Application.bai6.MoveablePoint.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.bai6.Point2DPoint3D.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.bai7.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.bai7.baitap1.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.bai7.baitap2.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.chuyendoitien.executor&quot;: &quot;Run&quot;,
-    &quot;Application.chuyenso_sangchu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo.MyClass.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.demo.baitapvenha2.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.generics.executor&quot;: &quot;Run&quot;,
-    &quot;Application.interfacedemo (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.interfacedemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.Automateds.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Automateds.testAdd.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.demo in C0424g1-jv101.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.Array.executor": "Run",
+    "Application.BtThemPhanTuVaoMang.executor": "Debug",
+    "Application.Counter.executor": "Debug",
+    "Application.DuyenMang.executor": "Run",
+    "Application.Fan.executor": "Run",
+    "Application.GenericsChild.executor": "Run",
+    "Application.GopMang.executor": "Run",
+    "Application.HienThi20SoNguyenTo.executor": "Run",
+    "Application.HienThiCacLoaiHinh.executor": "Run",
+    "Application.HienThiLoiChao.executor": "Run",
+    "Application.Interface.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MyClass.executor": "Run",
+    "Application.QuadraticEquation.executor": "Run",
+    "Application.QuanLySV.executor": "Run",
+    "Application.Queues.executor": "Run",
+    "Application.Stacks.executor": "Run",
+    "Application.StopWatch.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.ThemPhanTuVaoMang.executor": "Run",
+    "Application.TinhTong.executor": "Run",
+    "Application.TinhTongGiaTriDuongCheo.executor": "Run",
+    "Application.TinhTongMotSoOMotCot.executor": "Run",
+    "Application.XoaPhanTuTrongMang.executor": "Run",
+    "Application.bai6.MoveablePoint.App.executor": "Run",
+    "Application.bai6.Point2DPoint3D.App.executor": "Run",
+    "Application.bai7.App.executor": "Run",
+    "Application.bai7.baitap1.App.executor": "Run",
+    "Application.bai7.baitap2.App.executor": "Run",
+    "Application.chuyendoitien.executor": "Run",
+    "Application.chuyenso_sangchu.executor": "Run",
+    "Application.demo.MyClass.executor": "Debug",
+    "Application.demo.baitapvenha2.App.executor": "Run",
+    "Application.generics.executor": "Run",
+    "Application.interfacedemo (1).executor": "Run",
+    "Application.interfacedemo.executor": "Run",
+    "Application.main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.Automateds.executor": "Run",
+    "JUnit.Automateds.testAdd.executor": "Run",
+    "JUnit.Automatedss.executor": "Run",
+    "JUnit.Automatedss.test.executor": "Run",
+    "JUnit.demo in C0424g1-jv101.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Demo1 (1).executor": "Run",
+    "TestNG.Demo1.executor": "Run",
+    "TestNG.Demo1.testLogin.executor": "Run",
+    "TestNG.Demo1.testMethod.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/java codgym/demo1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="demo.test" />
       <recent name="demo.demo" />
       <recent name="bai6.MoveablePoint" />
       <recent name="demo" />
@@ -123,47 +145,8 @@
       <recent name="bai1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.demo.baitapvenha2.App">
-    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Interface" />
-      <module name="C0424g1-jv101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.enums.Main" />
-      <module name="C0424g1-jv101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.enums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo.baitapvenha2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.baitapvenha2.App" />
-      <module name="C0424g1-jv101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.baitapvenha2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Automateds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Demo1.testLogin">
+    <configuration name="Automatedss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
@@ -172,13 +155,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="demo.test" />
-      <option name="MAIN_CLASS_NAME" value="demo.test.Automateds" />
+      <option name="MAIN_CLASS_NAME" value="demo.test.Automatedss" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Automateds.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
@@ -187,20 +170,74 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="demo.test" />
-      <option name="MAIN_CLASS_NAME" value="demo.test.Automateds" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="demo.test.Demo1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="C0424g1-jv101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.test" />
+      <option name="MAIN_CLASS_NAME" value="demo.test.Demo1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="C0424g1-jv101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.test" />
+      <option name="MAIN_CLASS_NAME" value="demo.test.Demo1" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="C0424g1-jv101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.test" />
+      <option name="MAIN_CLASS_NAME" value="demo.test.Demo1" />
+      <option name="METHOD_NAME" value="testMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.demo.baitapvenha2.App" />
-        <item itemvalue="JUnit.Automateds.testAdd" />
-        <item itemvalue="JUnit.Automateds" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Interface" />
+        <item itemvalue="TestNG.Demo1.testLogin" />
+        <item itemvalue="TestNG.Demo1.testMethod" />
+        <item itemvalue="TestNG.Demo1 (1)" />
+        <item itemvalue="TestNG.Demo1" />
+        <item itemvalue="JUnit.Automatedss" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +288,12 @@
       <workItem from="1718524095806" duration="5537000" />
       <workItem from="1718543651795" duration="7872000" />
       <workItem from="1718553728743" duration="1963000" />
-      <workItem from="1718585617101" duration="2755000" />
+      <workItem from="1718585617101" duration="4450000" />
+      <workItem from="1718593424422" duration="2826000" />
+      <workItem from="1718606015483" duration="3310000" />
+      <workItem from="1718617028440" duration="10000" />
+      <workItem from="1718617500760" duration="2589000" />
+      <workItem from="1718630683995" duration="3964000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
@@ -301,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718587895794</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="luyentap2">
+      <option name="closed" value="true" />
+      <created>1718588473200</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718588473200</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
