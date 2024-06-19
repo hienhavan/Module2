@@ -3,7 +3,15 @@ package demo.demo;
 import java.time.LocalDate;
 import java.util.Date;
 
+import static java.time.temporal.ChronoUnit.DAYS;
+
 public class demo {
+    private LocalDate datein;
+    private LocalDate dateout;
+    public  int date(){
+        long numdays = DAYS.between(datein,dateout);
+        return (int) numdays;
+    }
     public static void main(String[] args) {
         int number = 35;
         String message = "123";
@@ -16,5 +24,6 @@ public class demo {
         Date date = new Date();
         System.out.println(date);
         LocalDate localDate = LocalDate.now();
+
     }
 }
