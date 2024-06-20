@@ -1,6 +1,7 @@
 package demo.demo;
 
 import java.time.LocalDate;
+import java.util.Arrays;
 import java.util.Date;
 
 import static java.time.temporal.ChronoUnit.DAYS;
@@ -15,6 +16,7 @@ public class demo {
     public static void main(String[] args) {
         int number = 35;
         String message = "123";
+        String stack = "s * (s – a) * (s – b) * (s – c)";
         boolean numbers = (String.valueOf(number).contains("3"));
         System.out.println(numbers);
         String numverss = Integer.toString(number);
@@ -24,6 +26,7 @@ public class demo {
         Date date = new Date();
         System.out.println(date);
         LocalDate localDate = LocalDate.now();
-
+         String[] stacks = stack.split(" ");
+        System.out.println(Arrays.toString(stacks));
     }
 }

@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="bai9">
-      <change afterPath="$PROJECT_DIR$/Module2/bai10/arraylist1/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai10/arraylist1/MyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai10/linklist/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai10/linklist/MyLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai10/linklist/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/thuattoansapxep/SapXepNoiBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="bai10">
+      <change afterPath="$PROJECT_DIR$/Module2/bai11/daonguocphantu/DaoNguocPhanTu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai11/demsolanmottuxuathien/DemSoLanXuatHienTrongMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai11/kiemtrachuoipalindrome/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai11/kiemtradaungoac/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai11/tochucdulieu/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai11/tochucdulieu/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai11/trienkhaiqueue/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai11/trienkhaiqueue/CircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai11/trienkhaiqueue/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module2/demo/demo/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demo/demo.java" afterDir="false" />
     </list>
@@ -49,94 +51,100 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.Array.executor": "Run",
-    "Application.BtThemPhanTuVaoMang.executor": "Debug",
-    "Application.Counter.executor": "Debug",
-    "Application.DuyenMang.executor": "Run",
-    "Application.Fan.executor": "Run",
-    "Application.GenericsChild.executor": "Run",
-    "Application.GopMang.executor": "Run",
-    "Application.HienThi20SoNguyenTo.executor": "Run",
-    "Application.HienThiCacLoaiHinh.executor": "Run",
-    "Application.HienThiLoiChao.executor": "Run",
-    "Application.Interface.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MyClass.executor": "Run",
-    "Application.MyLinkedListTest.executor": "Run",
-    "Application.MyListTest.executor": "Run",
-    "Application.QuadraticEquation.executor": "Run",
-    "Application.QuanLySV.executor": "Run",
-    "Application.Queues.executor": "Run",
-    "Application.SapXepNoiBot.executor": "Run",
-    "Application.Stacks.executor": "Run",
-    "Application.StopWatch.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.ThemPhanTuVaoMang.executor": "Run",
-    "Application.TinhTong.executor": "Run",
-    "Application.TinhTongGiaTriDuongCheo.executor": "Run",
-    "Application.TinhTongMotSoOMotCot.executor": "Run",
-    "Application.XoaPhanTuTrongMang.executor": "Run",
-    "Application.bai6.MoveablePoint.App.executor": "Run",
-    "Application.bai6.Point2DPoint3D.App.executor": "Run",
-    "Application.bai7.App.executor": "Run",
-    "Application.bai7.baitap1.App.executor": "Run",
-    "Application.bai7.baitap2.App.executor": "Run",
-    "Application.chuyendoitien.executor": "Run",
-    "Application.chuyenso_sangchu.executor": "Run",
-    "Application.demo.MyClass.executor": "Debug",
-    "Application.demo.baitapvenha2.App.executor": "Run",
-    "Application.demo.executor": "Run",
-    "Application.generics.executor": "Run",
-    "Application.interfacedemo (1).executor": "Run",
-    "Application.interfacedemo.executor": "Run",
-    "Application.main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.Automateds.executor": "Run",
-    "JUnit.Automateds.testAdd.executor": "Run",
-    "JUnit.Automatedss.executor": "Run",
-    "JUnit.Automatedss.test.executor": "Run",
-    "JUnit.FizzBuzzTest.DivideBy3and5.executor": "Run",
-    "JUnit.FizzBuzzTest.executor": "Run",
-    "JUnit.NextDayCalculatorTest.executor": "Run",
-    "JUnit.NextDayCalculatorTest.testNextDay1.executor": "Run",
-    "JUnit.NextDayCalculatorTest.testNextDay2.executor": "Run",
-    "JUnit.NextDayCalculatorTest.testNextDay3.executor": "Run",
-    "JUnit.NextDayCalculatorTest.testNextDay4.executor": "Run",
-    "JUnit.demo in C0424g1-jv101.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.Demo1 (1).executor": "Run",
-    "TestNG.Demo1.executor": "Run",
-    "TestNG.Demo1.testLogin.executor": "Run",
-    "TestNG.Demo1.testMethod.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java codgym/demo1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BtThemPhanTuVaoMang.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Counter.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DaoNguocPhanTu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemSoLanXuatHienTrongMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuyenMang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fan.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericsChild.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GopMang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HienThi20SoNguyenTo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HienThiCacLoaiHinh.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HienThiLoiChao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyLinkedListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuadraticEquation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuanLySV.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Queues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SapXepNoiBot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stacks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StopWatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThemPhanTuVaoMang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TinhTong.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TinhTongGiaTriDuongCheo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TinhTongMotSoOMotCot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.XoaPhanTuTrongMang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai11.kiemtrachuoipalindrome.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai11.kiemtradaungoac.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai11.tochucdulieu.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai6.MoveablePoint.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai6.Point2DPoint3D.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai7.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai7.baitap1.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai7.baitap2.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.chuyendoitien.executor&quot;: &quot;Run&quot;,
+    &quot;Application.chuyenso_sangchu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo.MyClass.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.demo.baitapvenha2.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.generics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.interfacedemo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.interfacedemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.Automateds.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Automateds.testAdd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Automatedss.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Automatedss.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FizzBuzzTest.DivideBy3and5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FizzBuzzTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NextDayCalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NextDayCalculatorTest.testNextDay1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NextDayCalculatorTest.testNextDay2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NextDayCalculatorTest.testNextDay3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NextDayCalculatorTest.testNextDay4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.demo in C0424g1-jv101.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.Demo1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Demo1.testLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Demo1.testMethod.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java codgym/demo1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="bai11.tochucdulieu" />
       <recent name="demo.test" />
       <recent name="demo.demo" />
       <recent name="bai6.MoveablePoint" />
@@ -156,13 +164,13 @@
       <recent name="bai1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SapXepNoiBot">
-    <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai10.linklist.MyLinkedListTest" />
+  <component name="RunManager" selected="Application.bai11.tochucdulieu.App">
+    <configuration name="DemSoLanXuatHienTrongMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai11.daonguocphantu.demsolanxuathienmottu.DemSoLanXuatHienTrongMap" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai10.linklist.*" />
+          <option name="PATTERN" value="bai11.daonguocphantu.demsolanxuathienmottu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai10.arraylist1.MyListTest" />
+    <configuration name="bai11.kiemtrachuoipalindrome.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai11.kiemtrachuoipalindrome.App" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai10.arraylist1.*" />
+          <option name="PATTERN" value="bai11.kiemtrachuoipalindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +191,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SapXepNoiBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.thuattoansapxep.SapXepNoiBot" />
+    <configuration name="bai11.kiemtradaungoac.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai11.kiemtradaungoac.App" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.thuattoansapxep.*" />
+          <option name="PATTERN" value="bai11.kiemtradaungoac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bai11.tochucdulieu.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai11.tochucdulieu.App" />
+      <module name="C0424g1-jv101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai11.tochucdulieu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,28 +230,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextDayCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="C0424g1-jv101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai9.tinhngaytieptheo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bai9.tinhngaytieptheo" />
-      <option name="MAIN_CLASS_NAME" value="bai9.tinhngaytieptheo.NextDayCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SapXepNoiBot" />
-        <item itemvalue="Application.MyListTest" />
-        <item itemvalue="Application.MyLinkedListTest" />
-        <item itemvalue="JUnit.NextDayCalculatorTest" />
+        <item itemvalue="Application.bai11.tochucdulieu.App" />
+        <item itemvalue="Application.DemSoLanXuatHienTrongMap" />
+        <item itemvalue="Application.bai11.kiemtradaungoac.App" />
         <item itemvalue="Application.demo" />
+        <item itemvalue="Application.bai11.kiemtrachuoipalindrome.App" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +301,12 @@
       <workItem from="1718758901389" duration="1274000" />
       <workItem from="1718766025396" duration="5130000" />
       <workItem from="1718778825698" duration="8204000" />
-      <workItem from="1718804205370" duration="3904000" />
+      <workItem from="1718804205370" duration="4569000" />
+      <workItem from="1718845345008" duration="754000" />
+      <workItem from="1718854654174" duration="4870000" />
+      <workItem from="1718865353089" duration="11529000" />
+      <workItem from="1718890079564" duration="4823000" />
+      <workItem from="1718899399904" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
@@ -369,7 +380,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718705638873</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="bai10">
+      <option name="closed" value="true" />
+      <created>1718815615366</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718815615366</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bai10">
+      <option name="closed" value="true" />
+      <created>1718815648549</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718815648549</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,6 +408,7 @@
     <MESSAGE value="luyentap2" />
     <MESSAGE value="bai8" />
     <MESSAGE value="bai9" />
-    <option name="LAST_COMMIT_MESSAGE" value="bai9" />
+    <MESSAGE value="bai10" />
+    <option name="LAST_COMMIT_MESSAGE" value="bai10" />
   </component>
 </project>
