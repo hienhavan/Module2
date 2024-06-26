@@ -4,36 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="bai 11">
-      <change afterPath="$PROJECT_DIR$/Module2/bai12/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai12/browsethetree/BrowseTheTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai12/browsethetree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai12/clearthetree/ClearTheTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai12/clearthetree/Node2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai13/ChuoiCoDoDaiLonNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai13/TimChuoiTanggDan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai13/TimKiemNhiPhan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai14/Chen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha3/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha3/ConvertCounterSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha3/ConvertSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/demo/demo1/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/demo/demo1/RoleConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/demo/demo1/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/iotext/IoText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/iotext.txt" afterDir="false" />
+    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="&#10;bai13">
+      <change afterPath="$PROJECT_DIR$/Module2/bai15/CheckThe3SidesOfTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai15/IllegalTriangleException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/bai10/linklist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai10/linklist/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/cautrucdulieu/BinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/cautrucdulieu/Queues.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/cautrucdulieu/Stacks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/cautrucdulieu/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai12/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demo/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demo/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demoOOP/GeometricOject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demoOOP/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/interface1/NhanVien.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/interface1/NhanVienVanPhong.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/thuattoansapxep/SapXepNoiBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai14/SapXepNoiBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +49,7 @@
     "Application.Array.executor": "Run",
     "Application.BrowseTheTree.executor": "Debug",
     "Application.BtThemPhanTuVaoMang.executor": "Debug",
+    "Application.CheckThe3SidesOfTriangle.executor": "Debug",
     "Application.Chen.executor": "Run",
     "Application.ClearTheTree.executor": "Run",
     "Application.Counter.executor": "Debug",
@@ -194,7 +169,20 @@
       <recent name="bai12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.CheckThe3SidesOfTriangle">
+    <configuration name="CheckThe3SidesOfTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai15.CheckThe3SidesOfTriangle" />
+      <module name="C0424g1-jv101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Chen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai14.Chen" />
       <module name="C0424g1-jv101" />
@@ -234,19 +222,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimChuoiTanggDan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai13.TimChuoiTanggDan" />
-      <module name="C0424g1-jv101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TimKiemNhiPhan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai13.TimKiemNhiPhan" />
       <module name="C0424g1-jv101" />
@@ -262,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckThe3SidesOfTriangle" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.IoText" />
         <item itemvalue="Application.Chen" />
         <item itemvalue="Application.TimKiemNhiPhan" />
-        <item itemvalue="Application.TimChuoiTanggDan" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +322,8 @@
       <workItem from="1719241072633" duration="1278000" />
       <workItem from="1719284222543" duration="3098000" />
       <workItem from="1719300319214" duration="2765000" />
-      <workItem from="1719364775247" duration="888000" />
+      <workItem from="1719364775247" duration="1526000" />
+      <workItem from="1719370160626" duration="4250000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
@@ -453,7 +429,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718899861202</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="&#10;bai13">
+      <option name="closed" value="true" />
+      <created>1719366961481</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719366961481</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,6 +451,37 @@
     <MESSAGE value="bai9" />
     <MESSAGE value="bai10" />
     <MESSAGE value="bai 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="bai 11" />
+    <MESSAGE value="&#10;bai13" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;bai13" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Module2/bai15/CheckThe3SidesOfTriangle.java</url>
+          <line>24</line>
+          <properties class="bai15.CheckThe3SidesOfTriangle" method="checkTriangleValidity">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Module2/bai15/CheckThe3SidesOfTriangle.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Module2/bai15/CheckThe3SidesOfTriangle.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Module2/bai15/CheckThe3SidesOfTriangle.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
