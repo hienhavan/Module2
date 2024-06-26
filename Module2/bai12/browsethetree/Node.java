@@ -1,4 +1,4 @@
-package bai10.linklist;
+package bai12.browsethetree;
 
 public class Node {
     public Object element;

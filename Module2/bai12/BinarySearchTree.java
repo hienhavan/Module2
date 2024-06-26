@@ -1,12 +1,10 @@
-package demo.cautrucdulieu;
+package bai12;
 
 public class BinarySearchTree {
     TreeNode root;
-
     public BinarySearchTree() {
         root = null;
     }
-
     public void insert(int val) {
         root = insertRec(root, val);
     }
@@ -25,6 +23,4 @@ public class BinarySearchTree {
 
         return root;
     }
-
-    // Các phương thức khác như tìm kiếm, xóa, duyệt cây, vv.
 }
