@@ -8,14 +8,14 @@ public class CheckThe3SidesOfTriangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào cạnh thứ 1:");
-        int a = scanner.nextInt();
+        int firstEdge = scanner.nextInt();
         System.out.println("Nhập vào cạnh thứ 2:");
-        int b = scanner.nextInt();
+        int secondEdge = scanner.nextInt();
         System.out.println("Nhập vào cạnh thứ 3:");
-        int c = scanner.nextInt();
+        int thirdEdge = scanner.nextInt();
 
         try {
-            checkTriangleValidity(a, b, c);
+            checkTriangleValidity(firstEdge, secondEdge, thirdEdge);
             System.out.println("Đây là 3 cạnh của một tam giác.");
         } catch (IllegalTriangleException e) {
             System.out.println("Lỗi: " + e.getMessage());

@@ -14,7 +14,7 @@ public class GenericsChild<T, U, V, N> extends Generics<T, U, V> {
     }
 
     public static void main(String[] args) {
-        GenericsChild<Integer, String, String, String> child = new GenericsChild<>(12, "hien", "as", "asd");
+        GenericsChild<Integer, String, String, String> child = new GenericsChild<>(12, "hien", "as", "asd.txt");
         System.out.println(child);
     }
 }
