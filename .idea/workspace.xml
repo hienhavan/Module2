@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="&#10;bai13">
-      <change afterPath="$PROJECT_DIR$/Module2/bai15/CheckThe3SidesOfTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai15/IllegalTriangleException.java" afterDir="false" />
+    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="&#10;bai15">
+      <change afterPath="$PROJECT_DIR$/Module2/bai16/CoppyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai16/DocFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai16/danhsach.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai16/file1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai16/file2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/demo/demo1/Files.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/bai15/CheckThe3SidesOfTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai15/CheckThe3SidesOfTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demo/demo1/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demo/demo1/RoleConst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demo/demo1/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demo/demo1/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +60,15 @@
     "Application.CheckThe3SidesOfTriangle.executor": "Debug",
     "Application.Chen.executor": "Run",
     "Application.ClearTheTree.executor": "Run",
+    "Application.CoppyFile.executor": "Run",
     "Application.Counter.executor": "Debug",
     "Application.DaoNguocPhanTu.executor": "Run",
     "Application.DemSoLanXuatHienTrongMap.executor": "Run",
     "Application.Demo.executor": "Run",
+    "Application.DocFile.executor": "Run",
     "Application.DuyenMang.executor": "Run",
     "Application.Fan.executor": "Run",
+    "Application.Files.executor": "Run",
     "Application.GenericsChild.executor": "Run",
     "Application.GopMang.executor": "Run",
     "Application.HienThi20SoNguyenTo.executor": "Run",
@@ -130,7 +141,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java codgym/demo1",
+    "last_opened_file_path": "D:/java codgym/demo1/Module2/bai16",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -151,10 +162,14 @@
       <recent name="bai6.MoveablePoint" />
       <recent name="demo" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java codgym\demo1\Module2\bai16" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java codgym\demo1\Module2\demo" />
       <recent name="D:\java codgym\demo1\Module2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -169,7 +184,7 @@
       <recent name="bai12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckThe3SidesOfTriangle">
+  <component name="RunManager" selected="Application.DocFile">
     <configuration name="CheckThe3SidesOfTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai15.CheckThe3SidesOfTriangle" />
       <module name="C0424g1-jv101" />
@@ -183,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai14.Chen" />
+    <configuration name="CoppyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai16.CoppyFile" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai14.*" />
+          <option name="PATTERN" value="bai16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IoText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.iotext.IoText" />
+    <configuration name="DocFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai16.DocFile" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.iotext.*" />
+          <option name="PATTERN" value="bai16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimKiemNhiPhan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai13.TimKiemNhiPhan" />
+    <configuration name="Files" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.demo.demo1.Files" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai13.*" />
+          <option name="PATTERN" value="demo.demo.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DocFile" />
+        <item itemvalue="Application.CoppyFile" />
+        <item itemvalue="Application.Files" />
         <item itemvalue="Application.CheckThe3SidesOfTriangle" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.IoText" />
-        <item itemvalue="Application.Chen" />
-        <item itemvalue="Application.TimKiemNhiPhan" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +338,12 @@
       <workItem from="1719284222543" duration="3098000" />
       <workItem from="1719300319214" duration="2765000" />
       <workItem from="1719364775247" duration="1526000" />
-      <workItem from="1719370160626" duration="4250000" />
+      <workItem from="1719370160626" duration="4998000" />
+      <workItem from="1719383846492" duration="2616000" />
+      <workItem from="1719414140028" duration="5223000" />
+      <workItem from="1719450088137" duration="5007000" />
+      <workItem from="1719457636911" duration="3920000" />
+      <workItem from="1719470446624" duration="9576000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
@@ -437,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719366961481</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="&#10;bai15">
+      <option name="closed" value="true" />
+      <created>1719375410215</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719375410216</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,36 +480,7 @@
     <MESSAGE value="bai10" />
     <MESSAGE value="bai 11" />
     <MESSAGE value="&#10;bai13" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;bai13" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Module2/bai15/CheckThe3SidesOfTriangle.java</url>
-          <line>24</line>
-          <properties class="bai15.CheckThe3SidesOfTriangle" method="checkTriangleValidity">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Module2/bai15/CheckThe3SidesOfTriangle.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Module2/bai15/CheckThe3SidesOfTriangle.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Module2/bai15/CheckThe3SidesOfTriangle.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="&#10;bai15" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;bai15" />
   </component>
 </project>
