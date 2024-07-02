@@ -1,18 +1,21 @@
 package demo.demo1;
-
-import bai17.Product;
-
-import java.util.ArrayList;
 import java.util.Optional;
 
 public class Demo {
     public static void main(String[] args) {
-        var product = new ArrayList<Product>();
-        var product2 = new Product(1, "name3", 100,"ss","nl");
-        product.add(new Product(1, "name1", 100,"ss","nl"));
-        product.add(new Product(1, "name2", 100,"ss","nl"));
-        Optional<Product> optionalName = Optional.ofNullable(product2);
-        optionalName.ifPresent(name -> System.out.println("User name: " + name));
+        Product product = getProductById(1);
+        Optional<Product> optionalProduct = Optional.ofNullable(product);
 
+        optionalProduct.ifPresent(p -> System.out.println("Tên s?n ph?m: " + p.getName()));
+    }
+
+    public static Product getProductById(int id) {
+        if (id == 1) {
+            return new Product("Laptop", 999.99);
+        } else {
+            return null; // Gi? l?p tr??ng h?p không tìm th?y s?n ph?m v?i id ?ã cho
+        }
     }
 }
+
+

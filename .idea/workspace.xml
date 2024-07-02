@@ -4,35 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="&#10;bai16">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/asd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai17/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai17/Crud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai17/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha4/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha4/CodeGym.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha4/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha4/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha4/StudentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha4/liststudent1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha4/students.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/demo/lambda/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/demo/lambda/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" afterDir="false" />
+    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="baitapvenha4">
+      <change afterPath="$PROJECT_DIR$/Module2/bai18/Threads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/bai18/demo/Threadss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/demo1/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/demo1/RegularExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/bai16/CoppyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai16/CoppyFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/bai16/DocFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai16/DocFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/bai16/file1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai16/file1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/bai16/file2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/bai16/file2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demo/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demo/demo1/Files.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/iotext/Files.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demo/demo1/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/iotext/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/enums/Enums.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/enums/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/generics/GenericsChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/generics/GenericsChild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/iotext/IoText.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/iotext.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/iotext.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,11 +79,15 @@
     &quot;Application.QuadraticEquation.executor&quot;: &quot;Run&quot;,
     &quot;Application.QuanLySV.executor&quot;: &quot;Run&quot;,
     &quot;Application.Queues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RegularExpression.executor&quot;: &quot;Run&quot;,
     &quot;Application.SapXepNoiBot.executor&quot;: &quot;Run&quot;,
     &quot;Application.Stacks.executor&quot;: &quot;Run&quot;,
     &quot;Application.StopWatch.executor&quot;: &quot;Run&quot;,
     &quot;Application.Test.executor&quot;: &quot;Run&quot;,
     &quot;Application.ThemPhanTuVaoMang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Threads.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Threadss (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Threadss.executor&quot;: &quot;Run&quot;,
     &quot;Application.TimChuoiTanggDan.executor&quot;: &quot;Debug&quot;,
     &quot;Application.TimKiemNhiPhan.executor&quot;: &quot;Run&quot;,
     &quot;Application.TinhTong.executor&quot;: &quot;Run&quot;,
@@ -205,13 +187,13 @@
       <recent name="bai12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.demo.baitapvenha4.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai17.App" />
+  <component name="RunManager" selected="Application.RegularExpression">
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.array.Array" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai17.*" />
+          <option name="PATTERN" value="demo.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoppyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai16.CoppyFile" />
+    <configuration name="RegularExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.demo1.RegularExpression" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai16.*" />
+          <option name="PATTERN" value="demo.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DocFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai16.DocFile" />
+    <configuration name="Threads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai18.Threads" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai16.*" />
+          <option name="PATTERN" value="bai18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.demo.lambda.Lambda" />
+    <configuration name="Threadss (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai18.demo.Threadss" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.demo.lambda.*" />
+          <option name="PATTERN" value="bai18.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo.baitapvenha4.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.baitapvenha4.App" />
+    <configuration name="Threadss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai18.demo.Threadss" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.baitapvenha4.*" />
+          <option name="PATTERN" value="bai18.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.demo.baitapvenha4.App" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.Lambda" />
-        <item itemvalue="Application.CoppyFile" />
-        <item itemvalue="Application.DocFile" />
+        <item itemvalue="Application.RegularExpression" />
+        <item itemvalue="Application.Array" />
+        <item itemvalue="Application.Threads" />
+        <item itemvalue="Application.Threadss (1)" />
+        <item itemvalue="Application.Threadss" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +355,13 @@
       <workItem from="1719722003783" duration="12945000" />
       <workItem from="1719738297984" duration="2443000" />
       <workItem from="1719760780350" duration="3870000" />
-      <workItem from="1719795284392" duration="968000" />
+      <workItem from="1719795284392" duration="2761000" />
+      <workItem from="1719819516304" duration="5162000" />
+      <workItem from="1719842001274" duration="5625000" />
+      <workItem from="1719853067103" duration="620000" />
+      <workItem from="1719886755340" duration="1288000" />
+      <workItem from="1719890570852" duration="2387000" />
+      <workItem from="1719902552534" duration="4977000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
@@ -511,7 +499,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719482545576</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="baitapvenha4">
+      <option name="closed" value="true" />
+      <created>1719796393706</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719796393706</updated>
+    </task>
+    <task id="LOCAL-00019" summary="baitapvenha4">
+      <option name="closed" value="true" />
+      <created>1719796403304</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719796403304</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,6 +532,7 @@
     <MESSAGE value="&#10;bai13" />
     <MESSAGE value="&#10;bai15" />
     <MESSAGE value="&#10;bai16" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;bai16" />
+    <MESSAGE value="baitapvenha4" />
+    <option name="LAST_COMMIT_MESSAGE" value="baitapvenha4" />
   </component>
 </project>
