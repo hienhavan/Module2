@@ -4,7 +4,7 @@ import demo.baitapvenha4.StudentManager;
 
 import java.util.Scanner;
 
-public class App {
+public class App implements choice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         StudentManager studentManager = new StudentManager();
@@ -19,29 +19,34 @@ public class App {
             System.out.println("6. Export students to file:");
             System.out.println("7. Exit");
             System.out.println("Nhap lua chon: ");
-            choice = sc.nextInt();
-            switch (choice) {
-                case 1:
-                    studentManager.addStudent();
-                    break;
-                case 2:
-                    studentManager.updateStudent();
-                    break;
-                case 3:
-                    studentManager.deleteStudent();
-                    break;
-                case 4:
-                    studentManager.showStudents();
-                    break;
-                case 5:
-                    studentManager.importStudents();
-                    break;
-                case 6:
-                    studentManager.exportStudents();
-                    break;
-                case 7:
-                    System.exit(0);
+            try {
+                choice = sc.nextInt();
+                switch (choice) {
+                    case ADD_STUDENT:
+                        studentManager.addStudent();
+                        break;
+                    case UPDATE_STUDENT:
+                        studentManager.updateStudent();
+                        break;
+                    case DELETE_STUDENT:
+                        studentManager.deleteStudent();
+                        break;
+                    case SHOW_STUDENTS:
+                        studentManager.showStudents();
+                        break;
+                    case IMPORT_STUDENTS:
+                        studentManager.importStudents();
+                        break;
+                    case EXPORT_STUDENTS:
+                        studentManager.exportStudents();
+                        break;
+                    case EXIT:
+                        System.exit(0);
+                }
+            } catch (Exception e) {
+                System.err.println(e);
             }
-        } while (true);
+        }
+        while (true);
     }
 }

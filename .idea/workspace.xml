@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="baitapvenha4">
-      <change afterPath="$PROJECT_DIR$/Module2/bai18/Threads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/bai18/demo/Threadss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/demo1/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/demo1/RegularExpression.java" afterDir="false" />
+    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="luyen tap RegularExpression">
+      <change afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha4/choice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/baitapvenha4/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha4/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/baitapvenha4/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha4/StudentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demo1/RegularExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha5/RegularExpression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,8 @@
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -202,11 +201,11 @@
       </method>
     </configuration>
     <configuration name="RegularExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.demo1.RegularExpression" />
+      <option name="MAIN_CLASS_NAME" value="demo.baitapvenha5.RegularExpression" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.demo1.*" />
+          <option name="PATTERN" value="demo.baitapvenha5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -361,7 +360,8 @@
       <workItem from="1719853067103" duration="620000" />
       <workItem from="1719886755340" duration="1288000" />
       <workItem from="1719890570852" duration="2387000" />
-      <workItem from="1719902552534" duration="4977000" />
+      <workItem from="1719902552534" duration="7582000" />
+      <workItem from="1719929771293" duration="1307000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
@@ -515,7 +515,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719796403304</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="luyen tap RegularExpression">
+      <option name="closed" value="true" />
+      <created>1719913216281</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719913216281</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,6 +541,7 @@
     <MESSAGE value="&#10;bai15" />
     <MESSAGE value="&#10;bai16" />
     <MESSAGE value="baitapvenha4" />
-    <option name="LAST_COMMIT_MESSAGE" value="baitapvenha4" />
+    <MESSAGE value="luyen tap RegularExpression" />
+    <option name="LAST_COMMIT_MESSAGE" value="luyen tap RegularExpression" />
   </component>
 </project>
