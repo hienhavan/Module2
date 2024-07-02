@@ -1,0 +1,4 @@
+nguyen van a,0123,nu
+nguyen van c,01234,nam
+nguyen van d,012345,nu
+nguyen van e,0123456,nam
