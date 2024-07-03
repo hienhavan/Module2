@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="bai tap ve nha5">
-      <change afterPath="$PROJECT_DIR$/Module2/bai19/NewsTitleExtractor.java" afterDir="false" />
+    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="bai tap venha5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module2/demo/baitapvenha4/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha4/App.java" afterDir="false" />
     </list>
@@ -191,7 +190,20 @@
       <recent name="bai12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RegularExpression">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.baitapvenha4.App" />
+      <module name="C0424g1-jv101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.baitapvenha4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.array.Array" />
       <module name="C0424g1-jv101" />
@@ -244,26 +256,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Threadss (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai18.demo.Threadss" />
-      <module name="C0424g1-jv101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai18.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.RegularExpression" />
         <item itemvalue="Application.NewsTitleExtractor" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.Threads" />
-        <item itemvalue="Application.Threadss (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +366,7 @@
       <workItem from="1719890570852" duration="2387000" />
       <workItem from="1719902552534" duration="7582000" />
       <workItem from="1719929771293" duration="6893000" />
-      <workItem from="1719968255156" duration="330000" />
+      <workItem from="1719968255156" duration="1106000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
@@ -569,7 +568,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719931532242</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="bai tap venha5">
+      <option name="closed" value="true" />
+      <created>1719968719490</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1719968719490</updated>
+    </task>
+    <task id="LOCAL-00027" summary="bai tap venha5">
+      <option name="closed" value="true" />
+      <created>1719968728265</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1719968728265</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,6 +605,7 @@
     <MESSAGE value="luyen tap RegularExpression" />
     <MESSAGE value="bai tap ve nha 5" />
     <MESSAGE value="bai tap ve nha5" />
-    <option name="LAST_COMMIT_MESSAGE" value="bai tap ve nha5" />
+    <MESSAGE value="bai tap venha5" />
+    <option name="LAST_COMMIT_MESSAGE" value="bai tap venha5" />
   </component>
 </project>

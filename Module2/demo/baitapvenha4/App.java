@@ -44,7 +44,8 @@ public class App implements choice {
                         System.exit(0);
                 }
             } catch (Exception e) {
-                System.err.println(e);
+                System.err.println("phai la 1 so");
+                break;
             }
         }
         while (true);
