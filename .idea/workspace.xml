@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="bai tap ve nha5">
+      <change afterPath="$PROJECT_DIR$/Module2/bai19/NewsTitleExtractor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/baitapvenha5/RegularExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha5/RegularExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/baitapvenha4/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha4/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,6 +79,7 @@
     &quot;Application.MyClass.executor&quot;: &quot;Run&quot;,
     &quot;Application.MyLinkedListTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.MyListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewsTitleExtractor.executor&quot;: &quot;Run&quot;,
     &quot;Application.QuadraticEquation.executor&quot;: &quot;Run&quot;,
     &quot;Application.QuanLySV.executor&quot;: &quot;Run&quot;,
     &quot;Application.Queues.executor&quot;: &quot;Run&quot;,
@@ -203,6 +205,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NewsTitleExtractor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai19.NewsTitleExtractor" />
+      <module name="C0424g1-jv101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegularExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.baitapvenha5.RegularExpression" />
       <module name="C0424g1-jv101" />
@@ -242,26 +257,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Threadss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai18.demo.Threadss" />
-      <module name="C0424g1-jv101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai18.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.RegularExpression" />
+        <item itemvalue="Application.NewsTitleExtractor" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.Threads" />
         <item itemvalue="Application.Threadss (1)" />
-        <item itemvalue="Application.Threadss" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +366,8 @@
       <workItem from="1719886755340" duration="1288000" />
       <workItem from="1719890570852" duration="2387000" />
       <workItem from="1719902552534" duration="7582000" />
-      <workItem from="1719929771293" duration="3334000" />
+      <workItem from="1719929771293" duration="6893000" />
+      <workItem from="1719968255156" duration="330000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
