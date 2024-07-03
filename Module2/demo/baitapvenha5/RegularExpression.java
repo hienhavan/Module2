@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class RegularExpression {
     private static final String CHECK_THE_DATE = "^([0-2][\\d]|3[0-1])\\/(0[\\d]|1[0-2])\\/2[\\d]{3}$";
-    private static final String CHECK_THE_DATE_AND_TIME = "^(([0|1][\\d]|2[0-3]):([0-5][\\d]|6[0]))|00:00$";
+    private static final String CHECK_THE_DATE_AND_TIME = "^(([0-1][\\d]|2[0-3]):([0-5][\\d]|6[0]))|00:00$";
     private static final String CHECK_YOUR_CREDIT_CARD_NUMBER = "^[\\d]{4}(-| )[\\d]{4}(-| )[\\d]{4}$";
 
     public static void main(String[] args) {
