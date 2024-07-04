@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment=" baitapvenha05">
+    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="de thi thuc hanh">
+      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/Choices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/CustomersManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/DuplicateCustomersException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/RegularCustomers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/VipCustomers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/choice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/customers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/redeem_points.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/demo/demo1/demo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/baitapvenha5/RegularExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha5/RegularExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/MedicalRecordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/MedicalRecordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +39,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="hientb &lt;havanhien54321@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -33,6 +51,10 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Module2/demo/demobaithithuchanh/MedicalRecord.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Module2/demo/demobaithithuchanh/VipMedicalRecord.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -86,6 +108,7 @@
     &quot;Application.SapXepNoiBot.executor&quot;: &quot;Run&quot;,
     &quot;Application.Stacks.executor&quot;: &quot;Run&quot;,
     &quot;Application.StopWatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.Test.executor&quot;: &quot;Run&quot;,
     &quot;Application.ThemPhanTuVaoMang.executor&quot;: &quot;Run&quot;,
     &quot;Application.Threads.executor&quot;: &quot;Run&quot;,
@@ -108,10 +131,17 @@
     &quot;Application.chuyendoitien.executor&quot;: &quot;Run&quot;,
     &quot;Application.chuyenso_sangchu.executor&quot;: &quot;Run&quot;,
     &quot;Application.demo.MyClass.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.demo.array.App.executor&quot;: &quot;Run&quot;,
     &quot;Application.demo.baitapvenha2.App.executor&quot;: &quot;Run&quot;,
     &quot;Application.demo.baitapvenha4.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo.casemodule2.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.demo.demo.demo1.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo.demobaithithuchanh.App.executor&quot;: &quot;Run&quot;,
     &quot;Application.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo2 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo2.executor&quot;: &quot;Run&quot;,
     &quot;Application.generics.executor&quot;: &quot;Run&quot;,
     &quot;Application.interfacedemo (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.interfacedemo.executor&quot;: &quot;Run&quot;,
@@ -145,7 +175,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java codgym/demo1/Module2/bai17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java codgym/demo1/Module2/demo/casemodule2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -168,6 +198,8 @@
       <recent name="demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java codgym\demo1\Module2\demo\casemodule2" />
+      <recent name="D:\java codgym\demo1\Module2\demo" />
       <recent name="D:\java codgym\demo1\Module2\bai17" />
       <recent name="D:\java codgym\demo1\Module2\bai16" />
     </key>
@@ -190,13 +222,13 @@
       <recent name="bai12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RegularExpression">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.baitapvenha4.App" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.casemodule2.Main" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.baitapvenha4.*" />
+          <option name="PATTERN" value="demo.casemodule2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +236,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.array.Array" />
+    <configuration name="demo2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.demo1.demo2" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.array.*" />
+          <option name="PATTERN" value="demo.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +249,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewsTitleExtractor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai19.NewsTitleExtractor" />
+    <configuration name="demo2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.demo1.demo2" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai19.*" />
+          <option name="PATTERN" value="demo.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,25 +262,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegularExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.baitapvenha5.RegularExpression" />
+    <configuration name="demo2 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo2" />
       <module name="C0424g1-jv101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.baitapvenha5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Threads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai18.Threads" />
+    <configuration name="demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.demo1.demo2" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai18.*" />
+          <option name="PATTERN" value="demo.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RegularExpression" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.NewsTitleExtractor" />
-        <item itemvalue="Application.Array" />
-        <item itemvalue="Application.Threads" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.demo2" />
+        <item itemvalue="Application.demo2 (3)" />
+        <item itemvalue="Application.demo2 (2)" />
+        <item itemvalue="Application.demo2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +393,24 @@
       <workItem from="1719890570852" duration="2387000" />
       <workItem from="1719902552534" duration="7582000" />
       <workItem from="1719929771293" duration="6893000" />
-      <workItem from="1719968255156" duration="1852000" />
+      <workItem from="1719968255156" duration="2897000" />
+      <workItem from="1719993574727" duration="1751000" />
+      <workItem from="1720015495300" duration="6938000" />
+      <workItem from="1720055447328" duration="683000" />
+      <workItem from="1720076063415" duration="5844000" />
+      <workItem from="1720101539724" duration="11655000" />
+      <workItem from="1720151690093" duration="614000" />
+      <workItem from="1720245295743" duration="8265000" />
+      <workItem from="1720260113486" duration="2985000" />
+      <workItem from="1720275034688" duration="791000" />
+      <workItem from="1720276868357" duration="10968000" />
+      <workItem from="1720326796869" duration="4227000" />
+      <workItem from="1720361030518" duration="3835000" />
+      <workItem from="1720400039124" duration="1990000" />
+      <workItem from="1720408543210" duration="5305000" />
+      <workItem from="1720420305412" duration="9128000" />
+      <workItem from="1720447804613" duration="13323000" />
+      <workItem from="1720486702473" duration="9534000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
@@ -592,7 +636,47 @@
       <option name="project" value="LOCAL" />
       <updated>1719969650951</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary=" baitapvenha05">
+      <option name="closed" value="true" />
+      <created>1719970177644</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1719970177644</updated>
+    </task>
+    <task id="LOCAL-00030" summary="demo tạo một throws">
+      <option name="closed" value="true" />
+      <created>1720108774478</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1720108774478</updated>
+    </task>
+    <task id="LOCAL-00031" summary="demo tạo một throws">
+      <option name="closed" value="true" />
+      <created>1720108786801</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1720108786801</updated>
+    </task>
+    <task id="LOCAL-00032" summary="de thi thuc hanh">
+      <option name="closed" value="true" />
+      <created>1720287730560</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1720287730560</updated>
+    </task>
+    <task id="LOCAL-00033" summary="de thi thuc hanh">
+      <option name="closed" value="true" />
+      <created>1720287762284</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1720287762284</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,6 +699,8 @@
     <MESSAGE value="bai tap ve nha5" />
     <MESSAGE value="bai tap venha5" />
     <MESSAGE value=" baitapvenha05" />
-    <option name="LAST_COMMIT_MESSAGE" value=" baitapvenha05" />
+    <MESSAGE value="demo tạo một throws" />
+    <MESSAGE value="de thi thuc hanh" />
+    <option name="LAST_COMMIT_MESSAGE" value="de thi thuc hanh" />
   </component>
 </project>

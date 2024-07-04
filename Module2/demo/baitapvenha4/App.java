@@ -50,4 +50,8 @@ public class App implements choice {
         }
         while (true);
     }
+    @Override
+    public void abc() {
+        System.out.println("abc");
+    }
 }

@@ -8,4 +8,5 @@ public interface choice {
     int IMPORT_STUDENTS = 5;
     int EXPORT_STUDENTS = 6;
     int EXIT = 7;
+    void abc ();
 }

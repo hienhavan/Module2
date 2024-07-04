@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Crud {
+    private static int count = 0;
     public static void readData(List<Product> product) {
         if (checkFileNull()) return;
         var scanner = new Scanner(System.in);
