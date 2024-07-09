@@ -68,7 +68,7 @@ public class CustomersManager {
         String filePath = "Module2/demo/casemodule2/redeem_points.csv";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
             if (redeemPointsList.isEmpty()) {
-                writer.write(customerMap.values() + "}"+ "," + redeemPoint );
+                writer.write(customerMap.values() + "}" + "," + redeemPoint);
                 writer.newLine();
                 return;
             }
@@ -76,16 +76,18 @@ public class CustomersManager {
                 try {
                     String phoneNumber = tokens[3];
                     String[] phoneNumbers = phoneNumber.split("=");
-                    if (customer.getPhoneNumber().equals(phoneNumbers[1])) {
+                    String phone = phoneNumbers[1].replaceAll("'", "");
+                    if (customer.getPhoneNumber().equals(phone)) {
                         redeemPoint = Integer.parseInt(tokens[tokens.length - 1]);
+                        System.out.println("dem"+redeemPoint);
                         redeemPoint++;
-                        writer.write(customer + "}"+ "," + redeemPoint);
+                        writer.write(customer + "}" + "," + redeemPoint);
                         writer.newLine();
                         break;
                     }
                 } catch (NullPointerException _) {
                 }
-                writer.write(customer + "}"+ "," + redeemPoint);
+                writer.write(customer + "}" + "," + redeemPoint);
                 writer.newLine();
             }
         } catch (IOException _) {
