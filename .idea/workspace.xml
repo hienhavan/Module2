@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="de thi thuc hanh">
-      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/Choices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/Customers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/CustomersManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/DuplicateCustomersException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/RegularCustomers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/VipCustomers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/choice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/customers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/redeem_points.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/demo/demo1/demo2.java" afterDir="false" />
+    <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="casemodule2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/MedicalRecordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/MedicalRecordManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/casemodule2/CustomersManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/CustomersManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/casemodule2/customers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/customers.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/casemodule2/redeem_points.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/redeem_points.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,7 +399,7 @@
       <workItem from="1720408543210" duration="5305000" />
       <workItem from="1720420305412" duration="9128000" />
       <workItem from="1720447804613" duration="13323000" />
-      <workItem from="1720486702473" duration="9534000" />
+      <workItem from="1720486702473" duration="13599000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
@@ -676,7 +665,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720287762284</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="casemodule2">
+      <option name="closed" value="true" />
+      <created>1720496587148</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1720496587148</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -701,6 +698,7 @@
     <MESSAGE value=" baitapvenha05" />
     <MESSAGE value="demo tạo một throws" />
     <MESSAGE value="de thi thuc hanh" />
-    <option name="LAST_COMMIT_MESSAGE" value="de thi thuc hanh" />
+    <MESSAGE value="casemodule2" />
+    <option name="LAST_COMMIT_MESSAGE" value="casemodule2" />
   </component>
 </project>

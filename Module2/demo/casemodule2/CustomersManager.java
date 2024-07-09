@@ -55,7 +55,7 @@ public class CustomersManager {
         String filePath = "Module2/demo/casemodule2/customers.csv";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
             for (Customers customer : customerMap.values()) {
-                writer.write(customer.toString() + "diem hien tai = " + redeemPoint + '\'' +
+                writer.write(customer.toString() + ", diem hien tai = " + redeemPoint + '\'' +
                         '}');
                 writer.newLine();
             }
@@ -68,27 +68,24 @@ public class CustomersManager {
         String filePath = "Module2/demo/casemodule2/redeem_points.csv";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
             if (redeemPointsList.isEmpty()) {
-                writer.write(customerMap.values() + ",diem hien tai = " + redeemPoint + '\'' +
-                        '}');
+                writer.write(customerMap.values() + "}"+ "," + redeemPoint );
                 writer.newLine();
                 return;
             }
             for (String[] tokens : redeemPointsList) {
                 try {
                     String phoneNumber = tokens[3];
-                    System.out.println("asd:"+phoneNumber);
-                    if (customer.getPhoneNumber().equals(phoneNumber)) {
+                    String[] phoneNumbers = phoneNumber.split("=");
+                    if (customer.getPhoneNumber().equals(phoneNumbers[1])) {
                         redeemPoint = Integer.parseInt(tokens[tokens.length - 1]);
                         redeemPoint++;
-                        writer.write(customer + ", diem hien tai = " + redeemPoint + '\'' +
-                                '}');
+                        writer.write(customer + "}"+ "," + redeemPoint);
                         writer.newLine();
                         break;
                     }
                 } catch (NullPointerException _) {
                 }
-                writer.write(customer + ", diem hien tai = " + redeemPoint + '\'' +
-                        '}');
+                writer.write(customer + "}"+ "," + redeemPoint);
                 writer.newLine();
             }
         } catch (IOException _) {
@@ -97,7 +94,6 @@ public class CustomersManager {
 
     private List<String[]> readRedeemPoints() {
         List<String[]> redeemPointsList = new ArrayList<>();
-        List<String[]> redeemPointsLists = new ArrayList<>();
         String filePath = "Module2/demo/casemodule2/redeem_points.csv";
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
@@ -105,23 +101,8 @@ public class CustomersManager {
                 String[] tokens = line.split(",");
                 redeemPointsList.add(tokens);
             }
-            String[] points = null;
-            for (var i = 0; i < redeemPointsList.size(); i++) {
-                for (var j = i + 1; j < redeemPointsList.size(); j++) {
-                    int numberOne = Integer.parseInt(redeemPointsList.get(i)[redeemPointsList.get(i).length - 1]);
-                    int numberTwo = Integer.parseInt(redeemPointsList.get(j)[redeemPointsList.get(j).length - 1]);
-                    if (redeemPointsList.get(i)[3].equals(redeemPointsList.get(j)[3])) {
-                        if (numberOne < numberTwo) {
-                            points = redeemPointsList.get(j);
-                        }
-                    } else {
-                        points = redeemPointsList.get(i);
-                    }
-                }
-                redeemPointsLists.add(points);
-            }
         } catch (IOException _) {
         }
-        return redeemPointsLists;
+        return redeemPointsList;
     }
 }
