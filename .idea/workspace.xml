@@ -7,8 +7,10 @@
     <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="casemodule2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module2/demo/casemodule2/CustomersManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/CustomersManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/casemodule2/customers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/customers.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/casemodule2/redeem_points.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/redeem_points.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/casemodule2/customers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/customers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/casemodule2/redeem_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/casemodule2/redeem_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/MedicalRecordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/MedicalRecordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -161,6 +166,8 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -400,7 +407,8 @@
       <workItem from="1720420305412" duration="9128000" />
       <workItem from="1720447804613" duration="13323000" />
       <workItem from="1720486702473" duration="13599000" />
-      <workItem from="1720506799229" duration="1995000" />
+      <workItem from="1720506799229" duration="8751000" />
+      <workItem from="1720518014385" duration="1636000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />

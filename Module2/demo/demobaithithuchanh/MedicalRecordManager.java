@@ -52,7 +52,7 @@ public class MedicalRecordManager extends DuplicateMedicalRecordException {
     }
 
     private void writeMedicalRecord(Map<String, MedicalRecord> medicalRecordMap) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("Module2\\demo\\demobaithithuchanh\\customers.csv"));
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("Module2\\demo\\demobaithithuchanh\\customers.txt"));
         ) {
             for (MedicalRecord child : medicalRecordMap.values()) {
                 writer.write(child.getId() + "," + child.getCode() + "," + child.getNamePatient() + "," + child.getHospitalizedDay() + "," + child.getHospitalDischargeDate() + "," + child.getReasonForHospitalization());

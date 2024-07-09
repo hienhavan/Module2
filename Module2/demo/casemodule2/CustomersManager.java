@@ -52,7 +52,7 @@ public class CustomersManager {
     }
 
     private void writeCustomersToFile() {
-        String filePath = "Module2/demo/casemodule2/customers.csv";
+        String filePath = "Module2/demo/casemodule2/customers.txt";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
             for (Customers customer : customerMap.values()) {
                 writer.write(customer.toString() + ", diem hien tai = " + redeemPoint + '\'' +
@@ -65,7 +65,7 @@ public class CustomersManager {
 
     private void updateRedeemPoints(Customers customer) {
         List<String[]> redeemPointsList = readRedeemPoints();
-        String filePath = "Module2/demo/casemodule2/redeem_points.csv";
+        String filePath = "Module2/demo/casemodule2/redeem_points.txt";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
             if (redeemPointsList.isEmpty()) {
                 writer.write(customerMap.values() + "}" + "," + redeemPoint);
@@ -79,12 +79,12 @@ public class CustomersManager {
                     String phone = phoneNumbers[1].replaceAll("'", "");
                     if (customer.getPhoneNumber().equals(phone)) {
                         redeemPoint = Integer.parseInt(tokens[tokens.length - 1]);
-                        System.out.println("dem"+redeemPoint);
+                        System.out.println("dem" + redeemPoint);
                         redeemPoint++;
-                        writer.write(customer + "}" + "," + redeemPoint);
-                        writer.newLine();
                         break;
                     }
+                    writer.write(customer + "}" + "," + redeemPoint);
+                    writer.newLine();
                 } catch (NullPointerException _) {
                 }
                 writer.write(customer + "}" + "," + redeemPoint);
@@ -96,15 +96,72 @@ public class CustomersManager {
 
     private List<String[]> readRedeemPoints() {
         List<String[]> redeemPointsList = new ArrayList<>();
-        String filePath = "Module2/demo/casemodule2/redeem_points.csv";
+        List<String[]> redeemPointsLists = new ArrayList<>();
+        String filePath = "Module2/demo/casemodule2/redeem_points.txt";
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] tokens = line.split(",");
                 redeemPointsList.add(tokens);
             }
+
+            for (int i = 0; i < redeemPointsList.size(); i++) {
+                String[] currentPoints = redeemPointsList.get(i);
+                int currentMaxPoints = Integer.parseInt(currentPoints[currentPoints.length - 1]);
+                for (int j = i + 1; j < redeemPointsList.size(); j++) {
+                    String[] nextPoints = redeemPointsList.get(j);
+                    if (currentPoints[3].equals(nextPoints[3])) {
+                        int nextPointsValue = Integer.parseInt(nextPoints[nextPoints.length - 1]);
+                        if (nextPointsValue > currentMaxPoints) {
+                            currentMaxPoints = nextPointsValue;
+                            currentPoints = nextPoints;
+                        }
+                    }
+                }
+
+                boolean isNewMax = true;
+                for (String[] points : redeemPointsLists) {
+                    if (points[3].equals(currentPoints[3])) {
+                        isNewMax = false;
+                        break;
+                    }
+                }
+                if (isNewMax) {
+                    redeemPointsLists.add(currentPoints);
+                }
+            }
+
+
         } catch (IOException _) {
         }
-        return redeemPointsList;
+        return redeemPointsLists;
     }
+
 }
+//    private List<String[]> readRedeemPoints() {
+//        List<String[]> redeemPointsList = new ArrayList<>();
+//        List<String[]> redeemPointsLists = new ArrayList<>();
+//        String filePath = "Module2/demo/casemodule2/redeem_points.txt";
+//        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+//            String line;
+//            while ((line = reader.readLine()) != null) {
+//                String[] tokens = line.split(",");
+//                redeemPointsList.add(tokens);
+//            }
+//            for (int i = 0; i < redeemPointsList.size(); i++) {
+//                String[] temp = null;
+//                for (int j = 1; j < redeemPointsList.size(); j++) {
+//                    if (redeemPointsList.get(i)[3].equals(redeemPointsList.get(j)[3])) {
+//                        if (Integer.parseInt(redeemPointsList.get(i)[redeemPointsList.get(i).length-1]) < Integer.parseInt(redeemPointsList.get(j)[redeemPointsList.get(j).length-1])) {
+//                            temp = redeemPointsList.get(j);
+//                        }else {
+//                            temp = redeemPointsList.get(i);
+//                        }
+//                    }
+//                }
+//                redeemPointsLists.add(temp);
+//                System.out.println(STR."temp: \{Arrays.toString(temp)}");
+//            }
+//        } catch (IOException _) {
+//        }
+//        return redeemPointsLists;

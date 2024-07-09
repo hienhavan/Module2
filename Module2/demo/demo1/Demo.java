@@ -84,7 +84,7 @@ public class Demo {
 //    }
 //
 //    private void writeCustomersToFile() {
-//        String filePath = "Module2/demo/casemodule2/customers.csv";
+//        String filePath = "Module2/demo/casemodule2/customers.txt";
 //        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
 //            for (Customers customer : customerMap.values()) {
 //                writer.write(customer.toString());
@@ -97,7 +97,7 @@ public class Demo {
 //
 //    private void updateRedeemPoints() {
 //        List<String[]> redeemPointsList = readRedeemPoints();
-//        String filePath = "Module2/demo/casemodule2/redeem_points.csv";
+//        String filePath = "Module2/demo/casemodule2/redeem_points.txt";
 //        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
 //            for (String[] tokens : redeemPointsList) {
 //                String phoneNumber = tokens[2];
@@ -118,7 +118,7 @@ public class Demo {
 //
 //    private List<String[]> readRedeemPoints() {
 //        List<String[]> redeemPointsList = new ArrayList<>();
-//        String filePath = "Module2/demo/casemodule2/redeem_points.csv";
+//        String filePath = "Module2/demo/casemodule2/redeem_points.txt";
 //        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
 //            String line;
 //            while ((line = reader.readLine()) != null) {
