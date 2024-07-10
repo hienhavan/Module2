@@ -8,6 +8,7 @@ interface Demo {
 interface Demo1  {
 
     void an();
+    static void a(){};
 }
 
 public class Interface implements Demo1,Demo  {

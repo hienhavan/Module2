@@ -8,6 +8,7 @@ public abstract class Customers {
     private String joinDate;
     private String departureDate;
     private String purposeOfJoining;
+    private int point;
 
 
     public Customers(int id, String code, String nameCustomer, String phoneNumber, String joinDate, String departureDate, String purposeOfJoining) {
@@ -76,7 +77,14 @@ public abstract class Customers {
         this.purposeOfJoining = purposeOfJoining;
     }
 
-//    @Override
+    public int getPoint() {
+        return point;
+    }
+
+    public void setPoint(int point) {
+        this.point = point;
+    }
+    //    @Override
 //    public String toString() {
 //        return this.id + "," +
 //                this.code + "," +
@@ -96,6 +104,7 @@ public abstract class Customers {
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", joinDate='" + joinDate + '\'' +
                 ", departureDate='" + departureDate + '\'' +
-                ", purposeOfJoining='" + purposeOfJoining ;
+                ", purposeOfJoining='" + purposeOfJoining + '\'' +
+                ", point='" + point;
     }
 }

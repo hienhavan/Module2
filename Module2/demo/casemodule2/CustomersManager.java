@@ -1,3 +1,4 @@
+
 package demo.casemodule2;
 
 import java.io.*;
@@ -6,6 +7,7 @@ import java.util.*;
 public class CustomersManager {
 
     private final Map<String, Customers> customerMap;
+    private final ArrayList <String> customers = new ArrayList<String>();
     int redeemPoint = 0;
 
     public CustomersManager() {
@@ -17,10 +19,12 @@ public class CustomersManager {
             System.err.println("Mã khách hàng trùng l?p: " + customer.getCode());
             return;
         }
+        updateRedeemPoints(customer);
+        customer.setPoint(redeemPoint);
         customerMap.put(customer.getCode(), customer);
         System.err.println("Thêm khách hàng thành công");
         updateCustomerIds();
-        updateRedeemPoints(customer);
+//        updateRedeemPoints(customer);
         writeCustomersToFile();
     }
 
@@ -55,8 +59,7 @@ public class CustomersManager {
         String filePath = "Module2/demo/casemodule2/customers.txt";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
             for (Customers customer : customerMap.values()) {
-                writer.write(customer.toString() + ", diem hien tai = " + redeemPoint + '\'' +
-                        '}');
+                writer.write(customer.toString() + ", diem hien tai = " + redeemPoint + '\'' + '}');
                 writer.newLine();
             }
         } catch (IOException _) {
@@ -83,13 +86,11 @@ public class CustomersManager {
                         redeemPoint++;
                         break;
                     }
-                    writer.write(customer + "}" + "," + redeemPoint);
-                    writer.newLine();
                 } catch (NullPointerException _) {
                 }
-                writer.write(customer + "}" + "," + redeemPoint);
-                writer.newLine();
             }
+            writer.write(customer + "}" + "," + redeemPoint);
+            writer.newLine();
         } catch (IOException _) {
         }
     }
@@ -130,8 +131,6 @@ public class CustomersManager {
                     redeemPointsLists.add(currentPoints);
                 }
             }
-
-
         } catch (IOException _) {
         }
         return redeemPointsLists;
@@ -152,9 +151,9 @@ public class CustomersManager {
 //                String[] temp = null;
 //                for (int j = 1; j < redeemPointsList.size(); j++) {
 //                    if (redeemPointsList.get(i)[3].equals(redeemPointsList.get(j)[3])) {
-//                        if (Integer.parseInt(redeemPointsList.get(i)[redeemPointsList.get(i).length-1]) < Integer.parseInt(redeemPointsList.get(j)[redeemPointsList.get(j).length-1])) {
+//                        if (Integer.parseInt(redeemPointsList.get(i)[redeemPointsList.get(i).length - 1]) < Integer.parseInt(redeemPointsList.get(j)[redeemPointsList.get(j).length - 1])) {
 //                            temp = redeemPointsList.get(j);
-//                        }else {
+//                        } else {
 //                            temp = redeemPointsList.get(i);
 //                        }
 //                    }
@@ -165,3 +164,5 @@ public class CustomersManager {
 //        } catch (IOException _) {
 //        }
 //        return redeemPointsLists;
+//    }
+//}

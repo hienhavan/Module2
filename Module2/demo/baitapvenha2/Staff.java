@@ -1,5 +1,7 @@
 package demo.baitapvenha2;
 
+import java.io.IOException;
+
 public abstract class Staff {
     private int id;
     private String phone;
@@ -53,4 +55,6 @@ public abstract class Staff {
                 ", name='" + name + '\'' +
                 ", position='" + position + '\'';
     }
+    public void ab() throws Exception {
+    };
 }
