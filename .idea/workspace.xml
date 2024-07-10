@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="casemodule2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module2/casemodule2/Choices.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/Choices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/casemodule2/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/Customers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module2/casemodule2/CustomersManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/CustomersManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/casemodule2/DuplicateCustomersException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/DuplicateCustomersException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/casemodule2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/casemodule2/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/casemodule2/RegularCustomers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/RegularCustomers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/casemodule2/VipCustomers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/VipCustomers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/casemodule2/file/customer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/file/customer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/casemodule2/file/redeem_point.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/file/redeem_point.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/casemodule2/interfaces/choice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/interfaces/choice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/baitapvenha5/RegularExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/baitapvenha5/RegularExpression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -427,7 +417,7 @@
       <workItem from="1720583662229" duration="968000" />
       <workItem from="1720584653373" duration="2047000" />
       <workItem from="1720594318329" duration="2468000" />
-      <workItem from="1720618191896" duration="8532000" />
+      <workItem from="1720618191896" duration="8869000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />

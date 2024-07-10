@@ -12,14 +12,13 @@ public class Choices implements choice {
 
     public static void choice() throws IOException {
         Scanner scanner = new Scanner(System.in);
-        DuplicateCustomersException e = null;
         CustomersManager medicalRecordManager = new CustomersManager();
         while (true) {
             Menu.printMenu();
             try {
                 int choose = Integer.parseInt(scanner.next());
                 switch (choose) {
-                    case ADD_CUSTOMER -> handleAdd(scanner, medicalRecordManager, e);
+                    case ADD_CUSTOMER -> handleAdd(scanner, medicalRecordManager);
                     case DELETE_CUSTOMER -> delete(scanner, medicalRecordManager);
                     case SEARCH_CUSTOMER -> searchCustomer(scanner, medicalRecordManager);
                     case SHOW_CUSTOMER -> medicalRecordManager.showCustomer();
@@ -34,7 +33,7 @@ public class Choices implements choice {
         }
     }
 
-    public static void handleAdd(Scanner scanner, CustomersManager medicalRecordManager, DuplicateCustomersException e) {
+    public static void handleAdd(Scanner scanner, CustomersManager medicalRecordManager) {
         Menu.printMenuAdd();
         try {
             int chooseMedicalRecord = Integer.parseInt(scanner.next());
@@ -44,7 +43,7 @@ public class Choices implements choice {
                 return;
             }
 
-            enterCustomerInformation(scanner, medicalRecordManager, chooseMedicalRecord, e);
+            enterCustomerInformation(scanner, medicalRecordManager, chooseMedicalRecord);
         } catch (NumberFormatException _) {
         } catch (IOException ex) {
             throw new RuntimeException(ex);
@@ -62,7 +61,8 @@ public class Choices implements choice {
         System.out.println("khach hang co ma " + name + " la:" + " " + customerManager.searchByCode(name));
 
     }
-    private static void enterCustomerInformation(Scanner scanner, CustomersManager customerManager, int chooseCustomers, DuplicateCustomersException e) throws IOException {
+
+    private static void enterCustomerInformation(Scanner scanner, CustomersManager customerManager, int chooseCustomers) throws IOException {
         System.out.println("Nhap Code");
         String code = scanner.next();
         System.out.println("Nhap ten khach hang");
@@ -73,7 +73,7 @@ public class Choices implements choice {
         String joinDate = scanner.next();
         System.out.println("Nhap ngay/thang roi di");
         String departureDate = scanner.next();
-        if (checkDate(joinDate, departureDate, e)) {
+        if (checkDate(joinDate, departureDate)) {
             return;
         }
         System.out.println("muc dich gia nhap");
@@ -83,7 +83,7 @@ public class Choices implements choice {
             System.out.println("Nhap so tien phai tra(USD)");
             double hospitalFee = Double.parseDouble(scanner.next());
             String regularCustomerCode = "^T-[\\d]+$";
-            e = new DuplicateCustomersException("ma khach hang phai bat dau bang T- va so (vd:T-1111)");
+            DuplicateCustomersException e = new DuplicateCustomersException("ma khach hang phai bat dau bang T- va so (vd:T-1111)");
             Customers regularCustomer = new RegularCustomers(numberOfChoices, code, nameCustomer, phoneNumber, joinDate, departureDate, purposeOfJoining, hospitalFee);
             checkTheNameOfThePatientCode(code, regularCustomer, customerManager, e, chooseCustomers, regularCustomerCode);
         }
@@ -97,11 +97,12 @@ public class Choices implements choice {
             System.out.println("Thoi han Vip(ngay)");
             int vipTerm = Integer.parseInt(scanner.next());
             String vipCustomerCode = "^VIP-[\\d]+$";
-            e = new DuplicateCustomersException("ma khach hang phai bat dau bang VIP- va so (vd:VIP-1111)");
+            DuplicateCustomersException e = new DuplicateCustomersException("ma khach hang phai bat dau bang VIP- va so (vd:VIP-1111)");
             Customers vipCustomer = new VipCustomers(numberOfChoices, code, nameCustomer, phoneNumber, joinDate, departureDate, purposeOfJoining, type, vipTerm);
             checkTheNameOfThePatientCode(code, vipCustomer, customerManager, e, chooseCustomers, vipCustomerCode);
         }
     }
+
     public static void delete(Scanner scanner, CustomersManager customerManager) {
         System.err.println("nhap ma khach hang muon xoa");
         String code = scanner.next();
@@ -140,15 +141,15 @@ public class Choices implements choice {
         numberOfChoices++;
     }
 
-    private static boolean checkDate(String inputDateIn, String inputDateOut, DuplicateCustomersException E) {
-        Pattern pattern = Pattern.compile("^([0-2][\\d]|3[0-1])\\/(0[\\d]|1[0-2])$");
+    private static boolean checkDate(String inputDateIn, String inputDateOut) {
+        Pattern pattern = Pattern.compile("^([0-2][\\d]|3[0-1])/(0[\\d]|1[0-2])$");
         boolean checkDate = false;
         Matcher matcher1 = pattern.matcher(inputDateIn);
         Matcher matcher2 = pattern.matcher(inputDateOut);
-        E = new DuplicateCustomersException("ban nhap sai( ngay, thang phai co dinh dang xx/yy va thang ra phai lon hon thang truoc)");
+        DuplicateCustomersException e = new DuplicateCustomersException("ban nhap sai( ngay, thang phai co dinh dang xx/yy va thang ra phai lon hon thang truoc)");
         if (!matcher1.matches() || !matcher2.matches()) {
             checkDate = true;
-            System.out.println(E.getMessage());
+            System.out.println(e.getMessage());
             return checkDate;
         }
         String[] date1 = inputDateIn.split("/");
@@ -159,7 +160,7 @@ public class Choices implements choice {
         int dateNumberOut = Integer.parseInt(dateStringDate2);
         if (!(dateNumberIn < dateNumberOut)) {
             checkDate = true;
-            System.out.println(E.getMessage());
+            System.out.println(e.getMessage());
             return checkDate;
         }
         return checkDate;

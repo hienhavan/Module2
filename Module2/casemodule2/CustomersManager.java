@@ -92,8 +92,6 @@ public class CustomersManager implements choice {
                     customerMap.put(customer.getCode(), customer);
                 }
             }
-//            customer.setPoint(redeemPoint);
-//            customerMap.put(customer.getCode(), customer);
              writer.write(customer + "}" + "," + redeemPoint);
             writer.newLine();
         } catch (IOException _) {
