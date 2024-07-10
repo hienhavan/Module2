@@ -1,1 +1,0 @@
-Customers{id=1, code='T-1', nameCustomer='2', phoneNumber='2', joinDate='2', departureDate='2', purposeOfJoining='2', point='6, mountToBePaid=2.0, diem hien tai = 6'}

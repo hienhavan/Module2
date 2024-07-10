@@ -48,6 +48,7 @@ public class RegularExpression {
         Pattern pattern = Pattern.compile(check);
         Matcher matcher = pattern.matcher(input);
         System.out.println(matcher.matches());
+        System.out.println(matcher);
     }
 }
 

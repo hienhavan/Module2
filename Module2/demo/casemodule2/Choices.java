@@ -1,6 +1,9 @@
 package demo.casemodule2;
 
+import demo.casemodule2.interfaces.choice;
+
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -14,19 +17,36 @@ public class Choices implements choice {
         CustomersManager medicalRecordManager = new CustomersManager();
         while (true) {
             Menu.printMenu();
+try {
+    int choose = Integer.parseInt(scanner.next());
+    switch (choose) {
+        case ADD_CUSTOMER -> handleAdd(scanner, medicalRecordManager, e);
+        case DELETE_CUSTOMER -> delete(scanner, medicalRecordManager);
+        case SEARCH_CUSTOMER -> searchCustomer(scanner, medicalRecordManager);
+        case SHOW_CUSTOMER -> medicalRecordManager.showCustomer();
+        case EXIT -> {
+            System.out.println("Exit");
+            System.exit(0);
+        }
+//        default -> System.err.println("ko co lua chon phu hop");
+    }
+}catch (Exception _){
+    System.err.println("ko co lua chon phu hop");
+}
 
-            int choose = Integer.parseInt(scanner.next());
-            switch (choose) {
-                case ADD_CUSTOMER -> handleAdd(scanner, medicalRecordManager, e);
-                case DELETE_CUSTOMER -> delete(scanner, medicalRecordManager);
-                case SEARCH_CUSTOMER -> searchCustomer(scanner, medicalRecordManager);
-                case SHOW_CUSTOMER -> medicalRecordManager.showCustomer();
-                case EXIT -> {
-                    System.out.println("Exit");
-                    System.exit(0);
-                }
-                default -> System.err.println("ko co lua chon phu hop");
-            }
+
+//            int choose = Integer.parseInt(scanner.next());
+//            switch (choose) {
+//                case ADD_CUSTOMER -> handleAdd(scanner, medicalRecordManager, e);
+//                case DELETE_CUSTOMER -> delete(scanner, medicalRecordManager);
+//                case SEARCH_CUSTOMER -> searchCustomer(scanner, medicalRecordManager);
+//                case SHOW_CUSTOMER -> medicalRecordManager.showCustomer();
+//                case EXIT -> {
+//                    System.out.println("Exit");
+//                    System.exit(0);
+//                }
+//                default -> System.err.println("ko co lua chon phu hop");
+//            }
         }
     }
 
@@ -111,24 +131,43 @@ public class Choices implements choice {
         numberOfChoices--;
     }
 
-    private static void checkTheNameOfThePatientCode(String input, Customers mr, CustomersManager customersManager, DuplicateCustomersException e, int choice, String customerCode) {
+    private static void checkTheNameOfThePatientCode(String input, Customers customer, CustomersManager customersManager, DuplicateCustomersException e, int choice, String customerCode) {
         if (choice == REGULAR_CUSTOMER) {
-            clientCodeFormat(input, mr, customersManager, e, customerCode);
+            clientCodeFormat(input, customer, customersManager, e, customerCode);
         }
         if (choice == VIP_CUSTOMER) {
-            clientCodeFormat(input, mr, customersManager, e, customerCode);
+            clientCodeFormat(input, customer, customersManager, e, customerCode);
         }
     }
 
-    private static void clientCodeFormat(String input, Customers mr, CustomersManager customersManager, DuplicateCustomersException e, String customerCode) {
+    private static void clientCodeFormat(String input, Customers customer, CustomersManager customersManager, DuplicateCustomersException e, String customerCode) {
         Pattern pattern = Pattern.compile(customerCode);
         Matcher matcher = pattern.matcher(input);
         if (!matcher.matches()) {
             System.out.println(e.getMessage());
             return;
         }
-        customersManager.addCustomer(mr);
+        customersManager.addCustomer(customer);
         numberOfChoices++;
+    }
+    private static  void checkDate (String inputDateIn,String inputDateOut, DuplicateCustomersException e,String inputCode, Customers customer, CustomersManager customersManager, String customerCode){
+        Pattern pattern = Pattern.compile("^([0-2][\\d]|3[0-1])\\/(0[\\d]|1[0-2])$");
+        Matcher matcher1 = pattern.matcher(inputDateIn);
+        Matcher matcher2 = pattern.matcher(inputDateOut);
+        e = new DuplicateCustomersException("bann nhap sai( ngay, thang phai co dinh dang xx/yy va thang ra phai lon hon thang truoc)");
+        if (!matcher1.matches() || !matcher2.matches()){
+            System.out.println(e.getMessage());
+            return;
+        }
+        String [] date1 = inputDateIn.split("/");
+        int dateNumber1 = Integer.parseInt(date1[1]);
+        String [] date2 = inputDateOut.split("/");
+        int dateNumber2 = Integer.parseInt(date2[1]);
+        if (dateNumber1 < dateNumber2){
+            System.out.println(e.getMessage());
+            return;
+        }
+clientCodeFormat();
     }
 }
 

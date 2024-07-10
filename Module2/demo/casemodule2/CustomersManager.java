@@ -1,14 +1,14 @@
 
 package demo.casemodule2;
 
+import demo.casemodule2.interfaces.choice;
+
 import java.io.*;
 import java.util.*;
 
-public class CustomersManager {
+public class CustomersManager implements choice {
 
     private final Map<String, Customers> customerMap;
-    private final ArrayList <String> customers = new ArrayList<String>();
-    int redeemPoint = 0;
 
     public CustomersManager() {
         this.customerMap = new HashMap<>();
@@ -16,15 +16,13 @@ public class CustomersManager {
 
     public void addCustomer(Customers customer) {
         if (customerMap.containsKey(customer.getCode())) {
-            System.err.println("Mã khách hàng trùng l?p: " + customer.getCode());
+            System.err.println("Mï¿½ khï¿½ch hï¿½ng trï¿½ng l?p: " + customer.getCode());
             return;
         }
-        updateRedeemPoints(customer);
-        customer.setPoint(redeemPoint);
         customerMap.put(customer.getCode(), customer);
-        System.err.println("Thêm khách hàng thành công");
+        System.err.println("Thï¿½m khï¿½ch hï¿½ng thï¿½nh cï¿½ng");
         updateCustomerIds();
-//        updateRedeemPoints(customer);
+        updateRedeemPoints(customer);
         writeCustomersToFile();
     }
 
@@ -40,15 +38,14 @@ public class CustomersManager {
 
     public void showCustomer() {
         if (customerMap.isEmpty()) {
-            System.err.println("Không có khách hàng nào trong danh sách");
+            System.err.println("Khï¿½ng cï¿½ khï¿½ch hï¿½ng nï¿½o trong danh sï¿½ch");
             return;
         }
-        customerMap.values().forEach(customer -> System.out.println(customer + ", diem hien tai = " + redeemPoint + '\'' +
-                '}'));
+        customerMap.values().forEach(System.out::println);
     }
 
     private void updateCustomerIds() {
-        int newId = 1;
+        int newId = START_ID;
         for (Customers customer : customerMap.values()) {
             customer.setId(newId);
             newId++;
@@ -56,10 +53,10 @@ public class CustomersManager {
     }
 
     private void writeCustomersToFile() {
-        String filePath = "Module2/demo/casemodule2/customers.txt";
+        String filePath = "Module2\\demo\\casemodule2\\file\\customer.txt";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
             for (Customers customer : customerMap.values()) {
-                writer.write(customer.toString() + ", diem hien tai = " + redeemPoint + '\'' + '}');
+                writer.write(customer.toString());
                 writer.newLine();
             }
         } catch (IOException _) {
@@ -68,27 +65,29 @@ public class CustomersManager {
 
     private void updateRedeemPoints(Customers customer) {
         List<String[]> redeemPointsList = readRedeemPoints();
-        String filePath = "Module2/demo/casemodule2/redeem_points.txt";
+        String filePath = "Module2\\demo\\casemodule2\\file\\redeem_point.txt";
+        int redeemPoint = START_POINT;
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
             if (redeemPointsList.isEmpty()) {
                 writer.write(customerMap.values() + "}" + "," + redeemPoint);
-                writer.newLine();
                 return;
             }
             for (String[] tokens : redeemPointsList) {
                 try {
+
                     String phoneNumber = tokens[3];
                     String[] phoneNumbers = phoneNumber.split("=");
                     String phone = phoneNumbers[1].replaceAll("'", "");
                     if (customer.getPhoneNumber().equals(phone)) {
                         redeemPoint = Integer.parseInt(tokens[tokens.length - 1]);
-                        System.out.println("dem" + redeemPoint);
                         redeemPoint++;
                         break;
                     }
                 } catch (NullPointerException _) {
                 }
             }
+            customer.setPoint(redeemPoint);
+            customerMap.put(customer.getCode(), customer);
             writer.write(customer + "}" + "," + redeemPoint);
             writer.newLine();
         } catch (IOException _) {
@@ -98,7 +97,7 @@ public class CustomersManager {
     private List<String[]> readRedeemPoints() {
         List<String[]> redeemPointsList = new ArrayList<>();
         List<String[]> redeemPointsLists = new ArrayList<>();
-        String filePath = "Module2/demo/casemodule2/redeem_points.txt";
+        String filePath = "Module2\\demo\\casemodule2\\file\\redeem_point.txt";
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
             while ((line = reader.readLine()) != null) {
@@ -119,7 +118,6 @@ public class CustomersManager {
                         }
                     }
                 }
-
                 boolean isNewMax = true;
                 for (String[] points : redeemPointsLists) {
                     if (points[3].equals(currentPoints[3])) {
@@ -135,34 +133,4 @@ public class CustomersManager {
         }
         return redeemPointsLists;
     }
-
 }
-//    private List<String[]> readRedeemPoints() {
-//        List<String[]> redeemPointsList = new ArrayList<>();
-//        List<String[]> redeemPointsLists = new ArrayList<>();
-//        String filePath = "Module2/demo/casemodule2/redeem_points.txt";
-//        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
-//            String line;
-//            while ((line = reader.readLine()) != null) {
-//                String[] tokens = line.split(",");
-//                redeemPointsList.add(tokens);
-//            }
-//            for (int i = 0; i < redeemPointsList.size(); i++) {
-//                String[] temp = null;
-//                for (int j = 1; j < redeemPointsList.size(); j++) {
-//                    if (redeemPointsList.get(i)[3].equals(redeemPointsList.get(j)[3])) {
-//                        if (Integer.parseInt(redeemPointsList.get(i)[redeemPointsList.get(i).length - 1]) < Integer.parseInt(redeemPointsList.get(j)[redeemPointsList.get(j).length - 1])) {
-//                            temp = redeemPointsList.get(j);
-//                        } else {
-//                            temp = redeemPointsList.get(i);
-//                        }
-//                    }
-//                }
-//                redeemPointsLists.add(temp);
-//                System.out.println(STR."temp: \{Arrays.toString(temp)}");
-//            }
-//        } catch (IOException _) {
-//        }
-//        return redeemPointsLists;
-//    }
-//}
