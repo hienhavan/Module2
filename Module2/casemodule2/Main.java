@@ -1,6 +1,6 @@
-package demo.casemodule2;
+package casemodule2;
 
-import demo.casemodule2.interfaces.choice;
+import casemodule2.interfaces.choice;
 
 import java.io.IOException;
 

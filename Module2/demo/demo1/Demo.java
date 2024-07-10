@@ -30,7 +30,7 @@ public class Demo {
 }
 //
 //
-//package demo.casemodule2;
+//package casemodule2;
 //
 //import java.io.*;
 //        import java.util.ArrayList;

@@ -1,1 +1,3 @@
-Customers{id=1, code='T-1', nameCustomer='1', phoneNumber='1', joinDate='10/10', departureDate='14/12', purposeOfJoining='12', point='3, mountToBePaid=123.0
+Customers{id=1, code='T-2', nameCustomer='1', phoneNumber='1', joinDate='11/11', departureDate='12/12', purposeOfJoining='1', point='13, mountToBePaid=1.0
+Customers{id=2, code='T-1', nameCustomer='1', phoneNumber='1', joinDate='11/11', departureDate='12/12', purposeOfJoining='1', point='13, mountToBePaid=1.0
+Customers{id=3, code='T-3', nameCustomer='1', phoneNumber='1', joinDate='11/11', departureDate='12/12', purposeOfJoining='1', point='13, mountToBePaid=1.0

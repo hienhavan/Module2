@@ -1,4 +1,4 @@
-package demo.casemodule2;
+package casemodule2;
 
 public class Menu {
 

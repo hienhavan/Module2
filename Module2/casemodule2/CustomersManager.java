@@ -1,7 +1,7 @@
 
-package demo.casemodule2;
+package casemodule2;
 
-import demo.casemodule2.interfaces.choice;
+import casemodule2.interfaces.choice;
 
 import java.io.*;
 import java.util.*;
@@ -16,11 +16,11 @@ public class CustomersManager implements choice {
 
     public void addCustomer(Customers customer) {
         if (customerMap.containsKey(customer.getCode())) {
-            System.err.println("M� kh�ch h�ng tr�ng l?p: " + customer.getCode());
+            System.err.println("ma khach hang trung lap: " + customer.getCode());
             return;
         }
         customerMap.put(customer.getCode(), customer);
-        System.err.println("Th�m kh�ch h�ng th�nh c�ng");
+        System.err.println("them khach hang thanh cong");
         updateCustomerIds();
         updateRedeemPoints(customer);
         writeCustomersToFile();
@@ -38,7 +38,7 @@ public class CustomersManager implements choice {
 
     public void showCustomer() {
         if (customerMap.isEmpty()) {
-            System.err.println("Kh�ng c� kh�ch h�ng n�o trong danh s�ch");
+            System.err.println("khong co khach hang nao trong danh sach");
             return;
         }
         customerMap.values().forEach(System.out::println);
@@ -53,7 +53,7 @@ public class CustomersManager implements choice {
     }
 
     private void writeCustomersToFile() {
-        String filePath = "Module2\\demo\\casemodule2\\file\\customer.txt";
+        String filePath = "Module2\\casemodule2\\file\\customer.txt";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
             for (Customers customer : customerMap.values()) {
                 writer.write(customer.toString());
@@ -65,7 +65,7 @@ public class CustomersManager implements choice {
 
     private void updateRedeemPoints(Customers customer) {
         List<String[]> redeemPointsList = readRedeemPoints();
-        String filePath = "Module2\\demo\\casemodule2\\file\\redeem_point.txt";
+        String filePath = "Module2\\casemodule2\\file\\redeem_point.txt";
         int redeemPoint = START_POINT;
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
             if (redeemPointsList.isEmpty()) {
@@ -86,9 +86,15 @@ public class CustomersManager implements choice {
                 } catch (NullPointerException _) {
                 }
             }
-            customer.setPoint(redeemPoint);
-            customerMap.put(customer.getCode(), customer);
-            writer.write(customer + "}" + "," + redeemPoint);
+            for (Customers customers : customerMap.values()) {
+                if (customers.getPhoneNumber().equals(customer.getPhoneNumber())) {
+                    customers.setPoint(redeemPoint);
+                    customerMap.put(customer.getCode(), customer);
+                }
+            }
+//            customer.setPoint(redeemPoint);
+//            customerMap.put(customer.getCode(), customer);
+             writer.write(customer + "}" + "," + redeemPoint);
             writer.newLine();
         } catch (IOException _) {
         }
@@ -97,7 +103,7 @@ public class CustomersManager implements choice {
     private List<String[]> readRedeemPoints() {
         List<String[]> redeemPointsList = new ArrayList<>();
         List<String[]> redeemPointsLists = new ArrayList<>();
-        String filePath = "Module2\\demo\\casemodule2\\file\\redeem_point.txt";
+        String filePath = "Module2\\casemodule2\\file\\redeem_point.txt";
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
             while ((line = reader.readLine()) != null) {

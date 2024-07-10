@@ -1,4 +1,4 @@
-package demo.casemodule2;
+package casemodule2;
 
 public abstract class Customers {
     private int id;
