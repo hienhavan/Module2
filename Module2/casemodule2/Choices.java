@@ -3,7 +3,6 @@ package demo.casemodule2;
 import demo.casemodule2.interfaces.choice;
 
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -17,22 +16,22 @@ public class Choices implements choice {
         CustomersManager medicalRecordManager = new CustomersManager();
         while (true) {
             Menu.printMenu();
-try {
-    int choose = Integer.parseInt(scanner.next());
-    switch (choose) {
-        case ADD_CUSTOMER -> handleAdd(scanner, medicalRecordManager, e);
-        case DELETE_CUSTOMER -> delete(scanner, medicalRecordManager);
-        case SEARCH_CUSTOMER -> searchCustomer(scanner, medicalRecordManager);
-        case SHOW_CUSTOMER -> medicalRecordManager.showCustomer();
-        case EXIT -> {
-            System.out.println("Exit");
-            System.exit(0);
-        }
+            try {
+                int choose = Integer.parseInt(scanner.next());
+                switch (choose) {
+                    case ADD_CUSTOMER -> handleAdd(scanner, medicalRecordManager, e);
+                    case DELETE_CUSTOMER -> delete(scanner, medicalRecordManager);
+                    case SEARCH_CUSTOMER -> searchCustomer(scanner, medicalRecordManager);
+                    case SHOW_CUSTOMER -> medicalRecordManager.showCustomer();
+                    case EXIT -> {
+                        System.out.println("Exit");
+                        System.exit(0);
+                    }
 //        default -> System.err.println("ko co lua chon phu hop");
-    }
-}catch (Exception _){
-    System.err.println("ko co lua chon phu hop");
-}
+                }
+            } catch (Exception _) {
+                System.err.println("ko co lua chon phu hop");
+            }
 
 
 //            int choose = Integer.parseInt(scanner.next());
@@ -75,7 +74,7 @@ try {
             System.err.println("Khong tim thay khach hang");
             return;
         }
-        System.out.println("khach hang co ma "+name+" la:"+ " "+ customerManager.searchByCode(name));
+        System.out.println("khach hang co ma " + name + " la:" + " " + customerManager.searchByCode(name));
 
     }
 
@@ -90,6 +89,9 @@ try {
         String joinDate = scanner.next();
         System.out.println("Nhap ngay roi di");
         String departureDate = scanner.next();
+        if (checkDate(joinDate, departureDate, e)) {
+            return;
+        }
         System.out.println("muc dich gia nhap");
         String purposeOfJoining = scanner.next();
 
@@ -150,24 +152,30 @@ try {
         customersManager.addCustomer(customer);
         numberOfChoices++;
     }
-    private static  void checkDate (String inputDateIn,String inputDateOut, DuplicateCustomersException e,String inputCode, Customers customer, CustomersManager customersManager, String customerCode){
+
+    private static boolean checkDate(String input1, String input2, DuplicateCustomersException E) {
         Pattern pattern = Pattern.compile("^([0-2][\\d]|3[0-1])\\/(0[\\d]|1[0-2])$");
-        Matcher matcher1 = pattern.matcher(inputDateIn);
-        Matcher matcher2 = pattern.matcher(inputDateOut);
-        e = new DuplicateCustomersException("bann nhap sai( ngay, thang phai co dinh dang xx/yy va thang ra phai lon hon thang truoc)");
-        if (!matcher1.matches() || !matcher2.matches()){
-            System.out.println(e.getMessage());
-            return;
+        boolean checkDate = false;
+        Matcher matcher1 = pattern.matcher(input1);
+        Matcher matcher2 = pattern.matcher(input2);
+        E = new DuplicateCustomersException("ban nhap sai( ngay, thang phai co dinh dang xx/yy va thang ra phai lon hon thang truoc)");
+        if (!matcher1.matches() || !matcher2.matches()) {
+            checkDate = true;
+            System.out.println(E.getMessage());
+            return checkDate;
         }
-        String [] date1 = inputDateIn.split("/");
-        int dateNumber1 = Integer.parseInt(date1[1]);
-        String [] date2 = inputDateOut.split("/");
-        int dateNumber2 = Integer.parseInt(date2[1]);
-        if (dateNumber1 < dateNumber2){
-            System.out.println(e.getMessage());
-            return;
+        String[] date1 = input1.split("/");
+        String dateStringDate1 = date1[1].replaceAll("'", "");
+        int dateNumber1 = Integer.parseInt(dateStringDate1);
+        String[] date2 = input2.split("/");
+        String dateStringDate2 = date2[1].replaceAll("'", "");
+        int dateNumber2 = Integer.parseInt(dateStringDate2);
+        if (!(dateNumber1 < dateNumber2)) {
+            checkDate = true;
+            System.out.println(E.getMessage());
+            return checkDate;
         }
-clientCodeFormat();
+        return checkDate;
     }
 }
 
