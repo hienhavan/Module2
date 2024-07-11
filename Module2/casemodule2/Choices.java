@@ -104,9 +104,9 @@ public class Choices implements choice {
     }
 
     public static void delete(Scanner scanner, CustomersManager customerManager) {
-        System.err.println("nhap ma khach hang muon xoa");
+        System.out.println("nhap ma khach hang muon xoa");
         String code = scanner.next();
-        System.err.println("ban chac nhan muon xoa y/n");
+        System.out.println("ban chac nhan muon xoa y/n");
         String yesOrNo = scanner.next();
         Customers mr = customerManager.searchByCode(code);
         if (mr == null) {
@@ -117,7 +117,7 @@ public class Choices implements choice {
             return;
         }
         customerManager.deleteCustomer(mr);
-        System.err.println("da xoa thanh cong");
+        System.out.println("da xoa thanh cong");
         numberOfChoices--;
     }
 
@@ -134,7 +134,7 @@ public class Choices implements choice {
         Pattern pattern = Pattern.compile(customerCode);
         Matcher matcher = pattern.matcher(input);
         if (!matcher.matches()) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
             return;
         }
         customersManager.addCustomer(customer);
@@ -149,7 +149,7 @@ public class Choices implements choice {
         DuplicateCustomersException e = new DuplicateCustomersException("ban nhap sai( ngay, thang phai co dinh dang xx/yy va thang ra phai lon hon thang truoc)");
         if (!matcher1.matches() || !matcher2.matches()) {
             checkDate = true;
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
             return checkDate;
         }
         String[] date1 = inputDateIn.split("/");

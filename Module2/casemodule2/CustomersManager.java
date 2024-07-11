@@ -20,7 +20,7 @@ public class CustomersManager implements choice {
             return;
         }
         customerMap.put(customer.getCode(), customer);
-        System.err.println("them khach hang thanh cong");
+        System.out.println("them khach hang thanh cong");
         updateCustomerIds();
         updateRedeemPoints(customer);
         writeCustomersToFile();
@@ -80,7 +80,11 @@ public class CustomersManager implements choice {
                     String phone = phoneNumbers[1].replaceAll("'", "");
                     if (customer.getPhoneNumber().equals(phone)) {
                         redeemPoint = Integer.parseInt(tokens[tokens.length - 1]);
-                        redeemPoint++;
+                        if (customer instanceof RegularCustomers) {
+                            redeemPoint++;
+                            break;
+                        }
+                        redeemPoint += 5;
                         break;
                     }
                 } catch (NullPointerException _) {
@@ -92,7 +96,7 @@ public class CustomersManager implements choice {
                     customerMap.put(customer.getCode(), customer);
                 }
             }
-             writer.write(customer + "}" + "," + redeemPoint);
+            writer.write(customer + "}" + "," + redeemPoint);
             writer.newLine();
         } catch (IOException _) {
         }
@@ -100,7 +104,7 @@ public class CustomersManager implements choice {
 
     private List<String[]> readRedeemPoints() {
         List<String[]> redeemPointsList = new ArrayList<>();
-        List<String[]> redeemPointsLists = new ArrayList<>();
+        List<String[]> topScoreList = new ArrayList<>();
         String filePath = "Module2\\casemodule2\\file\\redeem_point.txt";
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
@@ -123,18 +127,18 @@ public class CustomersManager implements choice {
                     }
                 }
                 boolean isNewMax = true;
-                for (String[] points : redeemPointsLists) {
+                for (String[] points : topScoreList) {
                     if (points[3].equals(currentPoints[3])) {
                         isNewMax = false;
                         break;
                     }
                 }
                 if (isNewMax) {
-                    redeemPointsLists.add(currentPoints);
+                    topScoreList.add(currentPoints);
                 }
             }
         } catch (IOException _) {
         }
-        return redeemPointsLists;
+        return topScoreList;
     }
 }
