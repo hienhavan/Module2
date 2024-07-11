@@ -1,2 +1,4 @@
 [Customers{id=1, code='T-1', nameCustomer='1', phoneNumber='1', joinDate='1', departureDate='1', purposeOfJoining='1', point='0, mountToBePaid=1.0]},0Customers{id=1, code='T-2', nameCustomer='2', phoneNumber='2', joinDate='2', departureDate='2', purposeOfJoining='2', point='0, mountToBePaid=2.0},0
 Customers{id=3, code='VIP-1', nameCustomer='1', phoneNumber='2', joinDate='12/11', departureDate='12/12', purposeOfJoining='1', point='0, type=3, vipTerm=12},0
+Customers{id=1, code='T-1', nameCustomer='a', phoneNumber='1', joinDate='11/11', departureDate='12/12', purposeOfJoining='1', point='1, mountToBePaid=1.0},1
+Customers{id=2, code='VIP-1', nameCustomer='A', phoneNumber='1', joinDate='11/11', departureDate='12/12', purposeOfJoining='1', point='6, type=2, vipTerm=12},6
