@@ -84,7 +84,7 @@ public class CustomersManager implements choice {
                             redeemPoint++;
                             break;
                         }
-                        redeemPoint += 5;
+                        redeemPoint += POINTS_AWARDED;
                         break;
                     }
                 } catch (NullPointerException _) {

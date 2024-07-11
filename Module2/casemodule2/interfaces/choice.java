@@ -13,4 +13,5 @@ public interface choice {
     int START_POINT = 0;
     int VIP_MIN = 1;
     int VIP_MAX = 3;
+    int POINTS_AWARDED = 5;
 }

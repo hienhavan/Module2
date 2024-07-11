@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="casemodule2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/casemodule2/CustomersManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/CustomersManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/casemodule2/file/redeem_point.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/file/redeem_point.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/Interface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -418,7 +417,8 @@
       <workItem from="1720584653373" duration="2047000" />
       <workItem from="1720594318329" duration="2468000" />
       <workItem from="1720618191896" duration="9864000" />
-      <workItem from="1720659506225" duration="350000" />
+      <workItem from="1720659506225" duration="3588000" />
+      <workItem from="1720679342906" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />

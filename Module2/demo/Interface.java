@@ -1,6 +1,9 @@
 package demo;
 
 
+import bai8.TennisGame;
+import demo.test.TennisGameTest;
+
 interface Demo {
     void keu();
 }
