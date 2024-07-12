@@ -1,0 +1,2 @@
+Telephone{id=1, namePhone='123', price=123.0, amount=123, Manufacturer='123, warrantyCoverage=123, warrantyPeriod=123'}
+Telephone{id=2, namePhone='1', price=1.0, amount=1, Manufacturer='1, country1, condition1'}

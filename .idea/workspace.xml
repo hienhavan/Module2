@@ -5,9 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="casemodule2">
+      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/Choices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/DuplicatePhoneException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/GenuinePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/PortablePhones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/Telephone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/TelephoneManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/choice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/date/mobiles.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/casemodule2/file/customer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/file/customer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/casemodule2/file/redeem_point.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/casemodule2/file/redeem_point.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/Choices.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/Choices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/MedicalRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/asd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/MedicalRecordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/MedicalRecordManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/RegularMedicalRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/RegularMedicalRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/VipMedicalRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/VipMedicalRecord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +135,7 @@
     "Application.bai7.App.executor": "Run",
     "Application.bai7.baitap1.App.executor": "Run",
     "Application.bai7.baitap2.App.executor": "Run",
+    "Application.baithithuchanh.Main.executor": "Run",
     "Application.chuyendoitien.executor": "Run",
     "Application.chuyenso_sangchu.executor": "Run",
     "Application.demo.MyClass.executor": "Debug",
@@ -128,6 +145,7 @@
     "Application.demo.casemodule2.Main.executor": "Run",
     "Application.demo.demo.demo1.App.executor": "Run",
     "Application.demo.demobaithithuchanh.App.executor": "Run",
+    "Application.demo.demobaithithuchanh.Main.executor": "Run",
     "Application.demo.executor": "Run",
     "Application.demo2 (1).executor": "Run",
     "Application.demo2 (2).executor": "Run",
@@ -212,11 +230,20 @@
       <recent name="bai1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="baithithuchanh" />
       <recent name="bai12.clearthetree" />
       <recent name="bai12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.baithithuchanh.Main">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="C0424g1-jv101" />
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="casemodule2.Main" />
       <module name="C0424g1-jv101" />
@@ -243,12 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.demo1.demo2" />
+    <configuration name="baithithuchanh.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baithithuchanh.Main" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.demo1.*" />
+          <option name="PATTERN" value="baithithuchanh.Choices" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,20 +283,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo2 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo2" />
-      <module name="C0424g1-jv101" />
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.demo1.demo2" />
+    <configuration name="demo.demobaithithuchanh.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.demobaithithuchanh.Main" />
       <module name="C0424g1-jv101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.demo1.*" />
+          <option name="PATTERN" value="demo.demobaithithuchanh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.baithithuchanh.Main" />
+        <item itemvalue="Application.demo.demobaithithuchanh.Main" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.RegularExpression" />
-        <item itemvalue="Application.demo2" />
-        <item itemvalue="Application.demo2 (3)" />
-        <item itemvalue="Application.demo2 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -422,6 +441,8 @@
       <workItem from="1720679342906" duration="787000" />
       <workItem from="1720680414950" duration="71000" />
       <workItem from="1720680558981" duration="4847000" />
+      <workItem from="1720703920718" duration="959000" />
+      <workItem from="1720747234548" duration="8079000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
@@ -722,5 +743,16 @@
     <MESSAGE value="de thi thuc hanh" />
     <MESSAGE value="casemodule2" />
     <option name="LAST_COMMIT_MESSAGE" value="casemodule2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Module2/baithithuchanh/Choices.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
