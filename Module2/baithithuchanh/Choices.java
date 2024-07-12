@@ -1,9 +1,6 @@
 package baithithuchanh;
 
-import java.io.IOException;
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Choices implements choice {
     private static int automaticId = 1;
@@ -55,30 +52,60 @@ public class Choices implements choice {
         }
     }
 
-    private static void enterPhoneInformation(Scanner scanner, TelephoneManager phoneManager, int chooseMedicalRecord) throws IOException {
+    private static void enterPhoneInformation(Scanner scanner, TelephoneManager phoneManager, int chooseMedicalRecord) {
         System.out.println("Nhap ten dien thoai");
         String namePhone = scanner.nextLine();
         System.out.println("Nhap gia ban");
-        double price = scanner.nextDouble();
+        double price = Double.parseDouble(scanner.nextLine());
+        if (isValidPrice(price)) {
+            System.err.println("Gia ban phai la so thuc duong");
+            return;
+        }
+
         System.out.println("nhap so luong");
-        int amount = scanner.nextInt();
+        int amount = Integer.parseInt(scanner.nextLine());
+        if (isValidQuantity(amount)) {
+            System.err.println("So luong phai la so nguyen duong");
+            return;
+        }
         System.out.println("Nha san xuat");
-        String manufacturer = scanner.next();
+        String manufacturer = scanner.nextLine();
+
+        if (isValidType(manufacturer)) {
+            System.err.println("Nha san xuat khong hop le");
+            return;
+        }
 
         if (chooseMedicalRecord == RORIGINAL_PHONE) {
             System.out.println("Nhap thoi gian bao hanh");
-            int warrantyPeriod = Integer.parseInt(scanner.next());
+            int warrantyPeriod = Integer.parseInt(scanner.nextLine());
+            if (isValidInsuranceDay(warrantyPeriod)) {
+                System.err.println("Thoi gian bao hanh khong hop le");
+                return;
+            }
             System.out.println("Nhap pham vi bao hanh");
-            String warrantyCoverage = scanner.next();
+            String warrantyCoverage = scanner.nextLine();
+            if (isValidScope(warrantyCoverage)) {
+                System.err.println("Pham vi bao hanh khong hop le");
+                return;
+            }
             Telephone phone = new GenuinePhone(automaticId, namePhone, price, amount, manufacturer, warrantyPeriod, warrantyCoverage);
             phoneManager.addPhone(phone);
             automaticId++;
         }
         if (chooseMedicalRecord == PORTABLE_PHONES) {
-            System.out.println("quoc gia xach tay)");
-            String country = scanner.next();
+            System.out.println("quoc gia xach tay");
+            String country = scanner.nextLine();
+            if (isValidCountry(country)) {
+                System.err.println("quoc gia xach tay khong hop le");
+                return;
+            }
             System.out.println("trang thai");
-            String condition = scanner.next();
+            String condition = scanner.nextLine();
+            if (isValidStatus(condition)) {
+                System.err.println("trang thai khong hop le");
+                return;
+            }
             Telephone phone = new PortablePhones(automaticId, namePhone, price, amount, manufacturer, country, condition);
             phoneManager.addPhone(phone);
             automaticId++;
@@ -108,52 +135,55 @@ public class Choices implements choice {
         int id = scanner.nextInt();
         phoneManager.searchByid(id);
     }
-    public void isValidQuantity(int quantity) throws Exception {
-        if (quantity < 0) {
-            throw new Exception("Invalid quantity");
-        }
+
+    public static boolean isValidQuantity(int quantity) {
+        return quantity < 0;
     }
 
-    public void isValidType(String type) throws Exception {
-        if (!type.equals("authentic") && !type.equals("hand good")) {
-            throw new Exception("Invalid type");
-        }
+    public static boolean isValidType(String type) {
+        return !type.equals("chinh hang") && !type.equals("xach tay");
     }
 
-    public void isValidPrice(double price) throws Exception {
-        if (price < 0) {
-            throw new Exception("Invalid price");
-        }
+    public static boolean isValidPrice(double price) {
+        return price < 0;
     }
 
-    public void isValidInsuranceDay(int insuranceDay) throws Exception {
+    public static boolean isValidInsuranceDay(int insuranceDay) {
+        boolean checked = false;
         int minInsuranceDay = 0;
         int maxInsuranceDay = 730;
         if (insuranceDay < minInsuranceDay || insuranceDay > maxInsuranceDay) {
-            throw new Exception("Invalid insurance day");
+            checked = true;
         }
+        return checked;
     }
 
-    public void isValidScope(String scope) throws Exception {
+    public static boolean isValidScope(String scope) {
+        boolean checked = false;
         String local = "Toan Quoc";
         String global = "Quoc Te";
         if (!scope.equals(global) && !scope.equals(local)) {
-            throw new Exception("Invalid scope");
+            checked = true;
         }
+        return checked;
     }
 
-    public void isValidCountry(String country) throws Exception {
+    public static boolean isValidCountry(String country) {
+        boolean checked = false;
         String banned = "Viet Nam";
         if (country.equals(banned)) {
-            throw new Exception("Invalid country");
+            checked = true;
         }
+        return checked;
     }
 
-    public void isValidStatus(String status) throws Exception {
+    public static boolean isValidStatus(String status) {
+        boolean checked = false;
         String[] validStatus = {"Da sua chua", "Chua sua chua"};
         if (!status.equals(validStatus[0]) && !status.equals(validStatus[1])) {
-            throw new Exception("Invalid status");
+            checked = true;
         }
+        return checked;
     }
 
 }

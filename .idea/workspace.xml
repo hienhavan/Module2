@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a173fa34-d41f-464c-a1dd-596d8488f13c" name="Changes" comment="casemodule2">
-      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/Choices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/DuplicatePhoneException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/GenuinePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/PortablePhones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/Telephone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/TelephoneManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/choice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/baithithuchanh/date/mobiles.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demo1/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/Choices.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/Choices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/MedicalRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/asd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/MedicalRecordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/MedicalRecordManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/RegularMedicalRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/RegularMedicalRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/VipMedicalRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/demo/demobaithithuchanh/VipMedicalRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/baithithuchanh/Choices.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/baithithuchanh/Choices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/baithithuchanh/date/mobiles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/baithithuchanh/date/mobiles.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -442,7 +426,7 @@
       <workItem from="1720680414950" duration="71000" />
       <workItem from="1720680558981" duration="4847000" />
       <workItem from="1720703920718" duration="959000" />
-      <workItem from="1720747234548" duration="8079000" />
+      <workItem from="1720747234548" duration="11940000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <option name="closed" value="true" />
@@ -743,16 +727,5 @@
     <MESSAGE value="de thi thuc hanh" />
     <MESSAGE value="casemodule2" />
     <option name="LAST_COMMIT_MESSAGE" value="casemodule2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Module2/baithithuchanh/Choices.java</url>
-          <line>103</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
